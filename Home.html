@@ -3,6 +3,8 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="HomeStyles.css">
+        <link rel="stylesheet" href="Normalise.css">
         <title>S10222867_JinDaat_ID-Assignment 1</title>
     </head>
 
@@ -10,12 +12,21 @@
     <!-- This will be the links for the navigation bar at the top of the website -->
     <nav>
     <ul class = "navigationBar" id = "navigationBar">
-        <li><a href="Home.html">Home</a></li>
-        <li><a href="#About">News</a></li>
-        <li><a href="#My Work">Contact</a></li>
-        <li><a href="#Contact Me">About</a></li>
-      </ul>
-    </nav>
+        <li><a class = "activeHome" href="Home.html">Home</a></li>
+        <li>
+        <div class="dropdown">
+          <button class="dropbtn">Dropdown</button>
+          <div class="dropdown-content">
+          <a href="#">Link 1</a>
+          <a href="#">Link 2</a>
+          <a href="#">Link 3</a>
+          </div>
+        </div>
+        </li>
+        <li><a href="#My Work">My Work</a></li>
+        <li><a href="#Contact Me">Contact Me</a></li>
+      </ul><br>
+    </nav><br>
 
       <!-- Home page section, headers and subheaders -->  
       <header class = "homeHeader">
@@ -80,7 +91,9 @@
             <input type="text" id="name" name="name" placeholder = "James Tan" requried><br><br>
             <label for="contactNo">Contact No. : </label>
             <input type = "tel" id="tel" name="tel" placeholder = "+65 12345678" required><br><br>
-            <input type="submit" value="Submit">
+            <button class = "submit">
+              <input type="submit" value="Submit">
+            </button>
           </form>
       </section>
 

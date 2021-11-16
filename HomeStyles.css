@@ -1,0 +1,48 @@
+/*Remove list points, add background color reset browser settings*/
+.navigationBar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:  #52ab98;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    font-size: 18px;
+    font-family: sans-serif;
+  }
+
+  /*Float list itmes to the left*/
+  li{
+      float: left;
+  }
+
+/*Display items in block and align texts*/
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 30px;
+    text-decoration: none;
+  }
+
+/*change color upon hovering*/
+  li a:hover{
+      background-color: #2b6777;
+  }
+/*change color of tab user is on*/
+  .activeHome{
+      margin-left: 60px;
+      background-color: #2b6777;
+  }
+  /*Style sheets for drop down button*/
+  .dropButton {
+    background-color: #52ab98;
+    color: white;
+    padding: 14px 30px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+  }
+
+  
