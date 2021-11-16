@@ -10,33 +10,85 @@
     <!-- This will be the links for the navigation bar at the top of the website -->
     <nav>
     <ul class = "navigationBar" id = "navigationBar">
-        <li><a href="#Home">Home</a></li>
+        <li><a href="Home.html">Home</a></li>
         <li><a href="#About">News</a></li>
         <li><a href="#My Work">Contact</a></li>
         <li><a href="#Contact Me">About</a></li>
       </ul>
     </nav>
 
-      <!-- Home page headers and subheaders -->  
+      <!-- Home page section, headers and subheaders -->  
       <header class = "homeHeader">
           <h1 class = "nameHeader">Tan Jin Daat</h1>
           <div class = "homeSubHeader">
-          <p >Aspiring Software Engineer</p>
-          <p>Student of Ngee Ann Polytechnic</p>
-        </div>
+            <p >Aspiring Software Engineer</p>
+            <p>Student of Ngee Ann Polytechnic</p>
+          </div>
+          <div class = "hIcons">
+            <a href="https://www.instagram.com/jin_datass/"><img src=
+              "https://brandpalettes.com/wp-content/uploads/2018/10/Instagram.png?ezimgfmt=ng%3Awebp%2Fngcb1%2Frs%3Adevice%2Frscb1-1" 
+              alt="My Instagram Profile">
+          </div>
+          <div class = "socialMedia">
+            <a href="https://www.facebook.com/jindaat.tan"><img src=
+              "https://brandpalettes.com/wp-content/uploads/2018/05/facebook_color_codes-300x300.png?ezimgfmt=rs:300x300/rscb1/ng:webp/ngcb1" 
+              alt="My Instagram Profile">
+          </div>
+          <div class = "socialMedia">
+            <a href="https://www.linkedin.com/in/jin-daat-tan-a31a13210/"><img src=
+              "https://cdn-icons-png.flaticon.com/512/174/174857.png"
+              alt="My Instagram Profile">
+          </div>
       </header>
 
+      <!-- Contact Me section of the website -->
       <section class = "contactMe">
-          <h2>Contact Me</h2>
-          <p>Email Address: S10222867@connect.np.edu</p>
+          <h2 class = "contactHeader">Contact Me</h2>
+          <!-- Flex container for contact types Class = "contactTypes"-->
+          <div class = "contactTypes">
+            <div>
+              <p>Email Addres :</p>
+              <p>Contact No. :</p>
+              <p>Others:</p>
+            </div>
+            <div>
+              <p>S10222867@connect.np.edu</p>
+              <p>+65 8218 7914</p>
+              <!-- Flex container for images class = "socialMedia"-->
+              <div class = "cIcons">
+                <a href="https://www.instagram.com/jin_datass/"><img src=
+                  "https://brandpalettes.com/wp-content/uploads/2018/10/Instagram.png?ezimgfmt=ng%3Awebp%2Fngcb1%2Frs%3Adevice%2Frscb1-1" 
+                  alt="My Instagram Profile">
+              </div>
+              <div class = "socialMedia">
+                <a href="https://www.facebook.com/jindaat.tan"><img src=
+                  "https://brandpalettes.com/wp-content/uploads/2018/05/facebook_color_codes-300x300.png?ezimgfmt=rs:300x300/rscb1/ng:webp/ngcb1" 
+                  alt="My Instagram Profile">
+              </div>
+              <div class = "socialMedia">
+                <a href="https://www.linkedin.com/in/jin-daat-tan-a31a13210/"><img src=
+                  "https://cdn-icons-png.flaticon.com/512/174/174857.png"
+                  alt="My Instagram Profile">
+              </div>
+            </div>
+
+          </div>
           <form class = "contactForm">
-            <label for="email">Your Email Address:</label>
-            <input type="email" id="email" name="email" requried><br><br>
-            <label for="name">Full Name:</label>
-            <input type="text" id="name" name="name" requried><br><br>
+            <label for="email">Your Email Address :</label>
+            <input type="email" id="email" name="email" placeholder = "JamesTan@hotmail.com" requried><br><br>
+            <label for="name">Full Name :</label>
+            <input type="text" id="name" name="name" placeholder = "James Tan" requried><br><br>
+            <label for="contactNo">Contact No. : </label>
+            <input type = "tel" id="tel" name="tel" placeholder = "+65 12345678" required><br><br>
             <input type="submit" value="Submit">
           </form>
       </section>
+
+      <footer class= "footer">
+        <p>2021 by Tan Jin Daat</p>
+        <p>Follow Me:</p>
+      </footer>
+
 
 
 </body>
