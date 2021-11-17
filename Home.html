@@ -5,6 +5,10 @@
         <meta name="viewport" content="width=device-width">
         <link rel="stylesheet" href="HomeStyles.css">
         <link rel="stylesheet" href="Normalise.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">   
         <title>S10222867_JinDaat_ID-Assignment 1</title>
     </head>
 
@@ -43,34 +47,61 @@
     </div>
   </header>
 
-  <!-- Contact me section of website -->
-  
-    <h2 class="contactHeader">Contact Me</h2>
-    <section class="contactMe">
+  <!-- "Contact me" section of website -->
+  <h2 class="contactHeader">Contact Me</h2>  
+  <section class="contactMe">
     <div class="contactContent">
       <div class="contactType">
-        <p>Email:</p>
-        <p>Conact No.:</p>
+        <p>Email:</p><br>
+        <p>Contact No.:</p><br>
         <p>Others:</p>
       </div>
       <div class="contactInfo">
-        <p>S10222867@connect.np.edu.sg</p>
-        <p>+65 8217914</p>
+        <p>S10222867@connect.np.edu.sg</p><br>
+        <p>+65 8217914</p><br>
         <!--Insert images for socials here-->
+        <a class="socialsa" href="https://www.instagram.com/jin_datass/">
+          <img src="https://bitzinfotech.com/wp-content/uploads/2020/05/insta-class.png" alt= "My Instagram Page"></a>
+        <a class="socialsa" href="https://www.facebook.com/jindaat.tan/">
+          <img src="https://s1.mzstatic.com/us/r30/Purple3/v4/d8/76/ed/d876edc3-d611-8fc5-7763-7bf53f8b9b59/mzl.bmooyoeh.png" alt= "My FaceBook Page"></a>
+        <a class="socialsa" href="https://www.linkedin.com/in/jin-daat-tan-a31a13210/">
+          <img src="https://na.panasonic.com/ca/sites/default/files/2018-10/linkedin-icon.png" alt="My LinkedIn Page"></a>
       </div>
     </div>
-    <form clss="form">
-      <label for="emai">Email Address:</label>
-      <input type="email" id ="email" name="email" placeholder="JohnTan@hotmail.com"><br><br>
-      <label for="name">Full Name:</label>
-      <input type="text" id="name" name="name" placeholder="John Tan"><br><br>
-      <label for="contactNo">Contact No.:</label>
-      <input type="tel" id="contactNo" name="contactNo" placeholder="+65 12345678"><br><br>
-      <label for="message">Message:</label>
-      <input type="text" id="message" name="message" placeholder="Start typing here">
-    </form>
+    <div>
+      <!-- Form in the "Contact Me" Section of the website -->
+      <form clss="form">
+        <label for="emai">Email Address:
+        <input type="email" id ="email" name="email" placeholder="JohnTan@hotmail.com" required>
+        </label>
+        <label for="name">Full Name:
+        <input type="text" id="name" name="name" placeholder="John Tan" required>
+        </label>
+        <label for="contactNo">Contact No.:
+        <input type="tel" id="contactNo" name="contactNo" placeholder="+65 12345678" required>
+        </label>
+        <label for="message">Message:
+        <input type="text" id="message" name="message" placeholder="Start typing here">
+        </label>
+        <button class="button">Submit</button>
+      </form>
     </div>
   </section>
+
+  <!-- This is the footer of the website. Will appear on every page. -->
+  <footer class="footer">
+    <p class="developer">2021 by Tan Jin Daat</p>
+    <div class="developer">
+    <p>Follow Me:</p>
+      <!--Insert socials here.-->
+      <a class="socialsa" href="https://www.instagram.com/jin_datass/">
+        <img src="https://bitzinfotech.com/wp-content/uploads/2020/05/insta-class.png" alt= "My Instagram Page"></a>
+      <a class="socialsa" href="https://www.facebook.com/jindaat.tan/">
+        <img src="https://s1.mzstatic.com/us/r30/Purple3/v4/d8/76/ed/d876edc3-d611-8fc5-7763-7bf53f8b9b59/mzl.bmooyoeh.png" alt= "My FaceBook Page"></a>
+      <a class="socialsa" href="https://www.linkedin.com/in/jin-daat-tan-a31a13210/">
+        <img src="https://na.panasonic.com/ca/sites/default/files/2018-10/linkedin-icon.png" alt="My LinkedIn Page"></a>
+    </div>
+  </footer>
 
 </body>
 </html> 

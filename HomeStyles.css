@@ -1,9 +1,15 @@
-/*Style sheet for everything within nav tag */
+/*Style sheet for everything within nav tag 
+standardise all fonts in nav to sans serif*/
   nav{
     font-family: sans-serif;
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+    z-index: 3;
   }
 
-/* Style for navigation bar (Parent Container)*/
+/* Style for navigation bar. All overflowed contents
+to be hidden*/
 .navbar {
     overflow: hidden;
     background-color:#52ab98;
@@ -12,7 +18,7 @@
 /*Style for child elements inside navBar*/  
   .navbar a {
     float: left;
-    font-size: 18px;
+    font-size: 16px;
     color: white;
     text-align: center;
     padding: 14px 30px;
@@ -39,7 +45,7 @@
 
 /*Style for drop down button (Child element)*/  
   .dropdownMenu .dropButton {
-    font-size: 18px;  
+    font-size: 16px;  
     border: none;
     outline: none;
     color: white;
@@ -136,7 +142,6 @@
     text-align: center;
     font-family: sans-serif;
     position: realtive;
-    top: 200px;
   }
 
 /*Style sheet for header name*/
@@ -148,14 +153,15 @@
     border: none;
     margin: auto;
     padding-top: 12px;
+    padding-bottom: 50px;
     z-index: 2;
   }
 
 /*Style sheet for subheader name*/
   .subheader{
-    font-size: 24px;
-    font-family:sans-serif;
-    margin: 5px;
+    font-size: 26px;
+    font-family:  'Montserrat', sans-serif;;
+    margin: 10px;
     color: #52AB6C;
     position: relative;
     top: 0px;
@@ -165,12 +171,13 @@
 /*Style sheet for contents inside the header*/
   .headerContent{
     position:relative;
-    top: 120px;
+    top: 160px;
     justify-content: center;
     border: 2px solid;
     margin:auto;
     width: 844px;
     padding: 100px;
+    padding-bottom: 30px;
     background-color: none;
     border-color: peachpuff;
   }
@@ -188,47 +195,108 @@
 
 /*Style sheet for my profile photo*/
   .profileImage{
-    width: 138px;
-    height: 138px;
+    width: 244px;
+    height: 248px;
     border-radius: 50%;
     z-index: 1;
     position: relative;
-    top: 190px;
+    top: 260px;
   }
 
-/*Style sheet for contact me section*/
-  .contactMe{
-    display:flex;
-    flex-direction: column;
-    position: relative;
-    top: 350px;
-    flex-direction: column;
-    text-align:center;
-    z-index: 1;
-    justify-content: center;
-  }
-
-/*Stlye sheet for "Contact Me"*/
+/*Style sheet for "Contact Me" header*/
   .contactHeader{
-    font-size: 54px;
     text-align: center;
-  }
+    font-size: 54px;
+    font-family: sans-serif;
+    position: relative;
+    top: 600px;
+  }  
 
-/*Style sheet for my contacts*/
-  .contactContent{
+/*Style sheet for items inside the contact me section*/
+  .contactMe{
+    position: relative;
+    top: 600px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
-    text-align: left;
+    border: 2px solid;
+    text-align: center;
+    width: 844px;
+    padding: 20px;
+    margin: auto;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
   }
 
-  /*Style sheet for items inside contactContent (Parent container)*/
-  .contactContent > div{
-    margin-left: 130px;
-    margin-right: 70px;
-    font-size: 22px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+/*Style sheets for my contact information*/
+  .contactContent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+    margin: auto;
+    margin-bottom: 40px;
+    width: 80%;
   }
 
+  .contactInfo{
+    padding-right: 100px;
+  }
+
+/*Style sheet for icons in the others section of Contact Me*/
+  .socialsa{
+    
+  }
+
+/*Style sheet for the form*/
+ label{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   padding-bottom: 60px;
+  }
+
+  input{
+    width: 50%;
+    border: 1px solid;
+    border-radius: 4px;
+  }
   
+  #message{
+    width: 50%;
+    padding-bottom: 300px;
+  }
+
+  .button{
+    text-align: center;
+    border: none;
+    padding: 10px 24px;
+    cursor: pointer;
+  }
+
+  form{
+    width: 80%;
+    margin: auto;
+    word-wrap: break-word;
+  }
+
+/*Style sheet for footer of website*/
+  footer{
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+    font-family: sans-serif;
+    position: relative;
+    top: 800px;
+    border: 2px solid;
+    width: 100%;
+    height: 60px;
+  }
+
+  .developer{
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+  }
