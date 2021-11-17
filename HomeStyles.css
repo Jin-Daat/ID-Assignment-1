@@ -8,10 +8,9 @@ standardise all fonts in nav to sans serif*/
     z-index: 3;
   }
 
-/* Style for navigation bar. All overflowed contents
-to be hidden*/
+/* Style for navigation bar.*/
 .navbar {
-    overflow: hidden;
+    
     background-color:#52ab98;
   }
   
