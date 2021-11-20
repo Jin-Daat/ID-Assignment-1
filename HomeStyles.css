@@ -91,8 +91,6 @@ nav{
   display: block; /*Display items as a block*/
 }
 
-
-
 /*Style sheets for drop down button*/
 .dropButton {
   background-color: #52ab98; /*Set background color*/
@@ -333,11 +331,12 @@ footer{
 
 /*Style sheet for subheader name*/
 .subheader{
-  font-size: 10px;
-  margin: 10px;
+  font-size: 10px; /*Reset font size*/
+  margin: 10px; /*Reset space outside container for mobile*/
 }
 
 /*Style sheet for contents inside the header*/
+/*All Content are adjusted to fit mobile views*/
 .headerContent{
   top: 160px;
   border: 2px solid;
@@ -350,6 +349,7 @@ footer{
 }
 
 /*Style sheet for my socials (images)*/
+/*All Content are adjusted to fit mobile views*/
 img{
   width: 21px;
   height: 21px;
@@ -361,6 +361,7 @@ img{
 }
 
 /*Style sheet for my profile photo*/
+/*All Content are adjusted to fit mobile views*/
 .profileImage{
   width: 100px;
   height:102px;
@@ -373,6 +374,7 @@ img{
 }
 
 /*Style sheet for "Contact Me" header*/
+/*All Content are adjusted to fit mobile views*/
 .contactHeader{
   font-size: 21px;
   position: relative;
@@ -385,6 +387,7 @@ img{
 }  
 
 /*Style sheet for items inside the contact me section*/
+/*All Content are adjusted to fit mobile views*/
 .contactMe{
   position: relative;
   top: 100px;
@@ -401,6 +404,7 @@ img{
 
 
 /*Style sheets for my contact information*/
+/*All Content are adjusted to fit mobile views*/
 .contactContent{
   margin-bottom: 40px; /*Add space below to separate from other child element*/
 }
@@ -410,6 +414,7 @@ img{
 }
 
 /*Style sheet for the form*/
+/*All Content are adjusted to fit mobile views*/
 label{
  display: flex;
  flex-direction: row;
@@ -418,6 +423,7 @@ label{
 }
 
 /*Style sheet for input section of the form*/
+/*All Content are adjusted to fit mobile views*/
 input{
   width: 50%;
   border: 1px solid;
@@ -425,12 +431,14 @@ input{
 }
  
 /*Style sheet for message input of the form*/
+/*All Content are adjusted to fit mobile views*/
 #message{
   width: 50%;
   padding-bottom: 100px;
 }
 
 /*Style sheet for the submit buttom*/
+/*All Content are adjusted to fit mobile views*/
 .button{
   text-align: center;
   border: none;
@@ -442,6 +450,7 @@ input{
 
 
 /*Style sheet for footer of website*/
+/*All Content are adjusted to fit mobile views*/
 footer{
   font-size: 8px;
   position: relative;
