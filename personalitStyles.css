@@ -185,3 +185,27 @@ li a:hover{
   line-height: 2.0; /*Adjust spacinig between lines*/
   word-spacing: 2px; /*Set word spacing between words*/
   }
+
+/*Stle sheet for hobby section*/
+.hobbies{
+  border: 2px solid;
+  width: 100%;
+}
+
+/*Style sheet for hobby title*/
+.hobbyTitle{
+  border: 2px solid;
+  text-align: center;
+  font-size: 54px;
+  font-family: sans-serif
+}
+
+/*Style sheet for "Cycling" Header*/
+.cycling{
+  border: 2px solid;
+}
+
+/*Style sheet for "Cycling content*/
+.cyclingContent{
+  border: 2px solid;
+}
