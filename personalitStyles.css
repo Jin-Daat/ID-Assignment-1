@@ -140,7 +140,7 @@ li a:hover{
   position: relative; /*Set position relative to viewport*/
   top: 0px; /*Leave no space from the viewport*/
   width: 100%; /*Make width to full screen size*/
-  height:fit-content; /*Adjust height to fit content into container*/
+  height:920px; /*Adjust height to fit content into container*/
   border: 2px solid;
 }
 
@@ -188,78 +188,102 @@ li a:hover{
 
 /*Stle sheet for hobby section*/
 .hobbies{
-  border: 2px solid;
-  width: 100%;
-  height: fit-content;
-  padding-top: 283px;
+  width: 100%; /*Set width to full size of screen*/
+  height: fit-content; /*Set height to fit content inside hobby section*/
+  padding-top: 283px; /*Distance of section from the about me header sectiom*/
 }
 
 /*Style sheet for hobby title*/
 .hobbyHeader{
-  border: 2px solid;
-  text-align: center;
-  font-size: 54px;
-  font-family: sans-serif;
+  text-align: center; /*Align title to the center*/
+  font-size: 54px; /*Set font size to 54 pixels*/
+  font-family: sans-serif; /*Set font family of title*/
 }
 
 /*Style sheet for hobby content container*/
 .hobbyContent{
-  border: 2px solid;
-  display: flex;
-  flex-wrap: wrap;
-  width: 100%;
-  justify-content: center;
-  height: fit-content;
-  margin-top: 18px;
+  display: flex; /*Make display of container flexible*/
+  flex-wrap: wrap; /*Allow child containers to wrap*/
+  width: 100%; /*Set width to full size of screen*/
+  justify-content: center; /*Make child containers align in the center*/
+  height: fit-content; /*Set height to fit content*/
+  margin-top: 18px; /*Set distance between content and title*/
 }
 
 /*Style sheet for hobby elements container*/
 .hobbyElements{
-  border: 2px solid;
-  text-align: center;
-  margin-top: 0px;
-  margin: 38px;
-  width: 492px;
-  height: 440px;
+  text-align: center; /*Align text in the center */
+  margin-top: 0px; /*Leave no space at the top of the text*/
+  margin: 38px; /*Set distance between each child container*/
+  width: 492px; /*Width of container*/
+  height: 440px; /*Height of container*/
 }
 
-/*Style sheet for "Cycling" title*/
+/*Style sheet for title*/
 .hobbyTitle{
-  border: 2px solid;
-  font-size: 24px;
-  font-family: sans-serif;
-  font-weight: bold;
-  width: 85px;
-  height: fit-content;
-  margin: auto;
-  margin-bottom: 26px;
+  font-size: 24px; /*Set font size*/
+  font-family: sans-serif; /*Set font style*/
+  font-weight: bold; /*Bold the text*/
+  width: 85px; /*Set width of the title container*/
+  height: fit-content; /*Set height tofit content*/
+  margin: auto; /*Set title in the center of the container*/
+  margin-bottom: 26px; /*Set space between title and the paragraph text*/
 }
 
-/*Style sheet for "Cycling" content container*/
+/*Style sheet for title content container*/
 .hobbyInfo{
-  border: 2px solid;
-  width: 440px;
-  height: 360px;
-  margin: auto;
+  width: 440px; /*Set width of the content container*/
+  height: 360px; /*Set heigh of content container*/
+  margin: auto; /*Align container in the center of the child container*/
 }
 
-/*Style sheet for "Cycling" content text*/
+/*Style sheet for title content text*/
 .hobbyInfo > p{
-  border: 2px solid;
-  font-size: 20px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  width: 358px;
-  height: fit-content;
-  margin: auto;
-  margin-top: 10px;
-  padding-top: 0px;
-  margin-bottom: 16px;
+  font-size: 20px; /*Set font size*/
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /*Set font style*/
+  width: 358px; /*Set width of text content*/
+  height: fit-content; /*Height to fit text content*/
+  margin: auto; /*Align text container in the center*/
+  margin-top: 10px; /*Put distance between text container and content container*/
+  padding-top: 0px; /*remove distance between text container and content container*/
+  margin-bottom: 16px; /*Set distance between text and image*/
 
 }
 
-/*Style sheet for image in the "Cycling" content*/
+/*Style sheet for image in the container content*/
 .hobbyInfo > img{
-  border: 2px solid;
-  width: 350px;
-  height: 200px;
+  width: 350px; /*Set width of image*/
+  height: 200px; /*Set height of image*/
+}
+
+/*Style sheet for footer of website*/
+footer{
+  display: flex; /*Set flexible display*/
+  flex-direction: row; /*Align footer in a row*/
+  font-size: 14px; /*Set font size of text in footer*/
+  font-family:  'Montserrat', sans-serif;    /*Set font family*/
+  color: #f6f6f2; /*Set color of text*/
+  position: relative; /*Set position relative to viewport*/
+  top: 200px; /*Put 200px of distance between relative position*/
+  border: 2px solid; /*Set border of the footer*/
+  border-color: #388087; /*Set color of the border*/
+  background-color: #388087; /*Set background color of footer*/
+  width: 100%; /*Maximise width*/
+  height: 60px; /*Set height of footer*/
+}
+
+/*Style sheet for contents inside the footer tag*/
+.developer{
+  margin: auto; /*Align text in the center*/
+  display: flex; /*make words flexible*/
+  flex-direction: row; /*Align texts in a row*/
+}
+
+/*Style sheet for socials at the footer*/
+.socialsa > img{
+  width: 36px; /*Set width of photo*/
+  height: 36px; /*Set height of photo*/
+  padding: 5px; /*Set space between border of photo*/
+  border-radius: 40%; /*Rounded border*/
+  text-decoration: none; /*Do not iinclude any decorations between images*/
 }
