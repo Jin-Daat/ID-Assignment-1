@@ -218,6 +218,7 @@ li a:hover{
   width: 492px; /*Width of container*/
   height: 480px; /*Height of container*/
   border: 2px solid; /*Set border of hobby elements*/
+  border-radius:10%; /*Rounded border*/
 }
 
 /*Style sheet for title*/
@@ -238,6 +239,7 @@ li a:hover{
   height: 360px; /*Set heigh of content container*/
   margin: auto; /*Align container in the center of the child container*/
   border: 2px solid; /*Set border of hobby text and image content*/
+  border-radius:10%; /*Rounded border*/
 }
 
 /*Style sheet for title content text*/
@@ -257,6 +259,7 @@ li a:hover{
 .hobbyInfo > img{
   width: 350px; /*Set width of image*/
   height: 200px; /*Set height of image*/
+  border-radius:10%; /*Rounded border*/
 }
 
 /*Style sheet for footer of website*/
