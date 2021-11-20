@@ -1,187 +1,187 @@
 
 /*Style sheet for everything within nav tag 
  standardise all fonts in nav to sans serif*/
-  nav{
-    font-family: sans-serif;
-    position: fixed; 
-    top: 0; 
-    width: 100%; 
-    z-index: 3;
-    }
-  
-/* Style for navigation bar.*/
-  .navbar {
-    background-color:#f6f6f2;
-   }
-    
-/*Style for child elements inside navBar*/  
-  .navbar a {
-    float: left;
-    font-size: 16px;
-    font-family: sans-serif;
-    font-weight: bold;
-    color: #388087;
-    text-align: center;
-    padding: 14px 30px;
-    text-decoration: none;
+ nav{
+  font-family: sans-serif;
+  position: fixed; 
+  top: 0; 
+  width: 100%; 
+  z-index: 3;
   }
+
+/* Style for navigation bar.*/
+.navbar {
+  background-color:#f6f6f2;
+ }
+  
+/*Style for child elements inside navBar*/  
+.navbar a {
+  float: left;
+  font-size: 16px;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: #388087;
+  text-align: center;
+  padding: 14px 30px;
+  text-decoration: none;
+}
 
 /*Different color when on page*/
-  .Home{
-    margin-left: 60px;
-  }
-    
+.Home{
+  margin-left: 60px;
+}
+  
 /*Style for items inside dropdownMenu (Parent Container)*/
-  .dropdownMenu {
-    float: left;
-    overflow: hidden; /*Hide overflowed items*/
-    background-color: #badfe7;
-  }
+.dropdownMenu {
+  float: left;
+  overflow: hidden; /*Hide overflowed items*/
+  background-color: #badfe7;
+}
 
 /*Style for drop down button (Child element)*/  
-  .dropdownMenu .dropButton {
-    font-size: 16px;  
-    font-family: sans-serif;
-    font-weight: bold;
-    border: none;
-    outline: none;
-    color: #388087;
-    padding: 14px 30px;
-    background-color: inherit; /*Follow background color of set color*/
-    font-family: inherit; /*Follow background color of set color*/
-    margin: 0;
-  }
-    
+.dropdownMenu .dropButton {
+  font-size: 16px;  
+  font-family: sans-serif;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  color: #388087;
+  padding: 14px 30px;
+  background-color: inherit; /*Follow background color of set color*/
+  font-family: inherit; /*Follow background color of set color*/
+  margin: 0;
+}
+  
 /* Style when hovering over items in the parent container*/
-  .navbar a:hover, .dropdownMenu:hover .dropButton {
-    background-color: #badfe7;
-  }
-    
-  /*Style for items inside dropContent(Parent element)*/
-  .dropContent {
-    display: none; /*No format of display*/
-    position: absolute; /*Absolute to "About"*/
-    background-color: white;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); /*Box shadow on drop contents*/
-    z-index: 1;
-  }
+.navbar a:hover, .dropdownMenu:hover .dropButton {
+  background-color: #badfe7;
+}
+  
+/*Style for items inside dropContent(Parent element)*/
+.dropContent {
+  display: none; /*No format of display*/
+  position: absolute; /*Absolute to "About"*/
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); /*Box shadow on drop contents*/
+  z-index: 1;
+}
 
 /*Style for child elements inside dropContent*/
-  .dropContent a {
-    float: none;
-    color: #388087;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-  }
-  
+.dropContent a {
+  float: none;
+  color: #388087;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
 /*Style for child elements in dropContent when hovering*/
-  .dropContent a:hover {
-    background-color: #badfe7;
-  }
-  
+.dropContent a:hover {
+  background-color: #badfe7;
+}
+
 /*Display style for items inside dropContent*/
-  .dropdownMenu:hover .dropContent {
-    display: block;
-  }
+.dropdownMenu:hover .dropContent {
+  display: block;
+}
 
 /*Remove list points, add background color reset browser settings*/
-  .navigationBar {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color:  #52ab98;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    font-size: 18px;
-    font-family: sans-serif;
-  }
+.navigationBar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:  #52ab98;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  font-size: 18px;
+  font-family: sans-serif;
+}
 
 /*Float list itmes to the left*/
-  li{
-    float: left;
-  }
- 
+li{
+  float: left;
+}
+
 /*Display items in block and align texts*/
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 30px;
-    text-decoration: none;
-  }
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 30px;
+  text-decoration: none;
+}
 
 /*change color upon hovering*/
-  li a:hover{
-    background-color: #2b6777;
-  }
-  
+li a:hover{
+  background-color: #2b6777;
+}
+
 /*change color of tab user is on*/
-  .activeHome{
-    margin-left: 60px;
-  }
-  
-  /*Style sheets for drop down button*/
-  .dropButton {
-    background-color: #52ab98;
-    color: white;
-    padding: 14px 30px;
-    font-size: 18px;
-    border: none;
-    cursor: pointer;
-  }
+.activeHome{
+  margin-left: 60px;
+}
 
-  /*Style sheet for "About Me" Section (Parent Container)*/
-  .header{
-    position: relative; /*Set position relative to viewport*/
-    top: 0px; /*Leave no space from the viewport*/
-    width: 100%; /*Make width to full screen size*/
-    height:fit-content; /*Adjust height to fit content into container*/
-    border: 2px solid;
-  }
+/*Style sheets for drop down button*/
+.dropButton {
+  background-color: #52ab98;
+  color: white;
+  padding: 14px 30px;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+}
 
-  /*Style sheet for "About Me" title*/
-  .aboutMe{
-    text-align: center; /*Align title to the center*/
-    font-size: 54px; /*Set font size*/
-    font-family: sans-serif; /*Set font style*/
-    margin-bottom: 71px; /*Create space between title and content*/
-    margin-top: 262px; /*Create space betwen top of container and title*/
-  }
+/*Style sheet for "About Me" Section (Parent Container)*/
+.header{
+  position: relative; /*Set position relative to viewport*/
+  top: 0px; /*Leave no space from the viewport*/
+  width: 100%; /*Make width to full screen size*/
+  height:fit-content; /*Adjust height to fit content into container*/
+  border: 2px solid;
+}
+
+/*Style sheet for "About Me" title*/
+.aboutMe{
+  text-align: center; /*Align title to the center*/
+  font-size: 54px; /*Set font size*/
+  font-family: sans-serif; /*Set font style*/
+  margin-bottom: 71px; /*Create space between title and content*/
+  margin-top: 262px; /*Create space betwen top of container and title*/
+}
 
 /*Style sheet for about content*/
-  .aboutContent{
-    display: flex; /*make display flexible*/
-    flex-direction: row-reverse; /*Set the order to reverse and align in row*/
-    width: 900px; /*Set width of content container*/
-    margin: auto; /*Align container in the center */
-  }
-    
+.aboutContent{
+  display: flex; /*make display flexible*/
+  flex-direction: row-reverse; /*Set the order to reverse and align in row*/
+  width: 900px; /*Set width of content container*/
+  margin: auto; /*Align container in the center */
+}
+  
 /*Style sheet for about content (child elements) */
-  .contentElements{
-    margin: auto; /*Align contents in the center of their containers*/
-  }
+.contentElements{
+  margin: auto; /*Align contents in the center of their containers*/
+}
 
 /*Style sheet for image in about me content*/
-  .aboutContent > img{
-    width: 192px; /*Set width of image*/
-    height: 181px; /*Set height of image*/
-    margin-top: 15px; /*Set space between image and top of parent container*/
-  }
+.aboutContent > img{
+  width: 192px; /*Set width of image*/
+  height: 181px; /*Set height of image*/
+  margin-top: 15px; /*Set space between image and top of parent container*/
+}
 
 /*Style sheet for p tag in about me content */
-  .aboutContent > p{
-    display: flex;
-    text-align: left; /*Align text to the left of the container*/
-    font-size: 21px; /*Set font size*/
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /*Set font style*/
-    margin-top: 0px; /*No space between text container and top of parent container*/
-    width: 526px; /*Set width of text container*/
-    height: fit-content; /*Set height to fit text content*/
-    line-height: 2.0; /*Adjust spacinig between lines*/
-    word-spacing: 2px; /*Set word spacing between words*/
-    }
+.aboutContent > p{
+  display: flex;
+  text-align: left; /*Align text to the left of the container*/
+  font-size: 21px; /*Set font size*/
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /*Set font style*/
+  margin-top: 0px; /*No space between text container and top of parent container*/
+  width: 526px; /*Set width of text container*/
+  height: fit-content; /*Set height to fit text content*/
+  line-height: 2.0; /*Adjust spacinig between lines*/
+  word-spacing: 2px; /*Set word spacing between words*/
+  }
