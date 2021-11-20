@@ -452,7 +452,6 @@ li a:hover{
 
 /*Style sheet for about content*/
 .aboutContent{
-  border: 2px solid;
   display: flex; /*make display flexible*/
   flex-direction: column-reverse; /*Set the order to reverse and align in row*/
   width: 100%; /*Set width of content container*/
@@ -463,7 +462,6 @@ li a:hover{
 .contentElements{
   border: 2px solid;
   margin: auto; /*Align contents in the center of their containers*/
-  display: flex;
   justify-content: center;
 }
 
@@ -472,13 +470,13 @@ li a:hover{
   width: 114px; /*Set width of image*/
   height: 108px; /*Set height of image*/
   margin-top: 15px; /*Set space between image and top of parent container*/
-  margin-bottom: 27px;
+  margin-bottom: 27px; /*Put some space between image and text*/
   border-radius:10%; /*Rounded border*/
 }
 
 /*Style sheet for p tag in about me content */
 .aboutContent > p{
-  display: flex;
+  display: flex; /*Make display flexible*/
   text-align: center; /*Align text to the left of the container*/
   font-size: 10px; /*Set font size*/
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /*Set font style*/
