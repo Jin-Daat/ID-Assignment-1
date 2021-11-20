@@ -295,41 +295,40 @@ footer{
 
 /*Style for child elements inside navBar*/  
 .navbar a {
-  font-size: 8px;
-  padding: 14px 15px;
+  font-size: 8px; /*Reset font size to fit mobile screen*/
+  padding: 14px 15px; /*Reset space between text and container*/
 }
 
 
 /*Style for drop down button (Child element)*/  
 .dropdownMenu .dropButton {
-  font-size: 8px;  
-  padding: 14px 30px;
+  font-size: 8px;  /*Reset font for mobile view*/
+  padding: 14px 30px; /*Reset space between text and container*/
 }
 
 /*Remove list points, add background color reset browser settings*/
 .navigationBar {
-  font-size: 18px;
+  font-size: 18px; /*Reset font for mobile view*/
 }
 
 /*Style sheets for drop down button*/
 .dropButton {
-  padding: 14px 30px;
-  font-size: 18px;
+  padding: 14px 30px; /*Reset space between text and container*/
+  font-size: 18px; /*Reset font for mobile view*/
 }
 
 /*Style for items inside header*/
 .header{
-  height: 700px;
+  height: 700px; /*Reset height for mobile view*/
 }
 
 /*Style sheet for header name*/
 .headerName{
-  font-size: 30px;
-  width: 300px;
-  height: 109px;
-  padding-top: 30px;
-  margin-bottom: -90px;
-  z-index: 2;
+  font-size: 30px; /*Reset font size for mobile view*/
+  width: 300px; /*Reset width for mobile*/
+  height: 109px; /*Reset height for mobile*/
+  padding-top: 30px; /*Reset space between container and content for mobile*/
+  margin-bottom: -90px; /*Reset bottom of space outside container for mobile*/
 }
 
 /*Style sheet for subheader name*/
