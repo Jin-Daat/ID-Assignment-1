@@ -195,7 +195,7 @@ li a:hover{
 }
 
 /*Style sheet for hobby title*/
-.hobbyTitle{
+.hobbyHeader{
   border: 2px solid;
   text-align: center;
   font-size: 54px;
@@ -222,7 +222,7 @@ li a:hover{
 }
 
 /*Style sheet for "Cycling" title*/
-.cycling{
+.hobbyTitle{
   border: 2px solid;
   font-size: 24px;
   font-family: sans-serif;
@@ -234,7 +234,7 @@ li a:hover{
 }
 
 /*Style sheet for "Cycling" content container*/
-.cyclingContent{
+.hobbyInfo{
   border: 2px solid;
   width: 440px;
   height: 360px;
@@ -242,20 +242,22 @@ li a:hover{
 }
 
 /*Style sheet for "Cycling" content text*/
-.cyclingContent > p{
+.hobbyInfo > p{
   border: 2px solid;
   font-size: 20px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   width: 358px;
   height: fit-content;
   margin: auto;
-  margin-bottom: 16px;
   margin-top: 10px;
   padding-top: 0px;
+  margin-bottom: 16px;
+
 }
 
 /*Style sheet for image in the "Cycling" content*/
-.cyclingContent > img{
+.hobbyInfo > img{
+  border: 2px solid;
   width: 350px;
   height: 200px;
 }
