@@ -137,59 +137,51 @@
 
   /*Style sheet for "About Me" Section (Parent Container)*/
   .header{
+    position: relative; /*Set position relative to viewport*/
+    top: 0px; /*Leave no space from the viewport*/
+    width: 100%; /*Make width to full screen size*/
+    height:fit-content; /*Adjust height to fit content into container*/
     border: 2px solid;
-    position: relative;
-    top: 0px;
-    width: 100%;
-    height:fit-content;
   }
 
   /*Style sheet for "About Me" title*/
   .aboutMe{
-    text-align: center;
-    font-size: 54px;
-    font-family: sans-serif;
-    border: 2px solid;
-    margin-bottom: 71px;
-    margin-top: 262px;
+    text-align: center; /*Align title to the center*/
+    font-size: 54px; /*Set font size*/
+    font-family: sans-serif; /*Set font style*/
+    margin-bottom: 71px; /*Create space between title and content*/
+    margin-top: 262px; /*Create space betwen top of container and title*/
   }
 
 /*Style sheet for about content*/
   .aboutContent{
-    border: 2px solid;
-    display: flex;
-    flex-direction: row-reverse;
-    width: 1200px;
-    margin: auto;
+    display: flex; /*make display flexible*/
+    flex-direction: row-reverse; /*Set the order to reverse and align in row*/
+    width: 900px; /*Set width of content container*/
+    margin: auto; /*Align container in the center */
   }
     
 /*Style sheet for about content (child elements) */
   .contentElements{
-    border: 2px solid;
-    height: 214px;
-    width: 516px;
-    display: flex;
-    margin: auto;
+    margin: auto; /*Align contents in the center of their containers*/
   }
 
 /*Style sheet for image in about me content*/
   .aboutContent > img{
-    width: 192px;
-    height: 181px;
-    border: 2px solid;
-    margin-top: 0px;
-    margin-left: 400px;
+    width: 192px; /*Set width of image*/
+    height: 181px; /*Set height of image*/
+    margin-top: 15px; /*Set space between image and top of parent container*/
   }
 
 /*Style sheet for p tag in about me content */
   .aboutContent > p{
-    text-align: left;
-    font-size: 21px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-top: 0px;
-    width: 526px;
-    height: fit-content;
+    display: flex;
+    text-align: left; /*Align text to the left of the container*/
+    font-size: 21px; /*Set font size*/
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /*Set font style*/
+    margin-top: 0px; /*No space between text container and top of parent container*/
+    width: 526px; /*Set width of text container*/
+    height: fit-content; /*Set height to fit text content*/
     line-height: 2.0; /*Adjust spacinig between lines*/
-    word-spacing: 2px;
-    margin-right: 30px;
+    word-spacing: 2px; /*Set word spacing between words*/
     }
