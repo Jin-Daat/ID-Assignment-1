@@ -191,6 +191,7 @@ li a:hover{
   border: 2px solid;
   width: 100%;
   height: fit-content;
+  padding-top: 283px;
 }
 
 /*Style sheet for hobby title*/
@@ -198,13 +199,26 @@ li a:hover{
   border: 2px solid;
   text-align: center;
   font-size: 54px;
-  font-family: sans-serif
+  font-family: sans-serif;
 }
 
-/*Style sheet for hooby content container*/
+/*Style sheet for hobby content container*/
+.hobbyContent{
+  border: 2px solid;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: fit-content;
+  margin-top: 56px;
+}
+
+/*Style sheet for hobby elements container*/
 .hobbyElements{
   border: 2px solid;
   text-align: center;
+  margin-top: 0px;
+  width: 492px;
+  height: 440px;
 }
 
 /*Style sheet for "Cycling" title*/
@@ -216,12 +230,17 @@ li a:hover{
   width: 85px;
   height: fit-content;
   margin: auto;
+  margin-bottom: 26px;
 }
 
 /*Style sheet for "Cycling" content container*/
 .cyclingContent{
   border: 2px solid;
+  width: 440px;
+  height: 360px;
+  margin: auto;
 }
+
 /*Style sheet for "Cycling" content text*/
 .cyclingContent > p{
   border: 2px solid;
@@ -230,5 +249,13 @@ li a:hover{
   width: 358px;
   height: fit-content;
   margin: auto;
+  margin-bottom: 16px;
+  margin-top: 10px;
   padding-top: 0px;
+}
+
+/*Style sheet for image in the "Cycling" content*/
+.cyclingContent > img{
+  width: 350px;
+  height: 200px;
 }
