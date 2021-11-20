@@ -141,7 +141,6 @@ li a:hover{
   top: 0px; /*Leave no space from the viewport*/
   width: 100%; /*Make width to full screen size*/
   height:920px; /*Adjust height to fit content into container*/
-  border: 2px solid;
 }
 
 /*Style sheet for "About Me" title*/
@@ -171,6 +170,7 @@ li a:hover{
   width: 192px; /*Set width of image*/
   height: 181px; /*Set height of image*/
   margin-top: 15px; /*Set space between image and top of parent container*/
+  border-radius:10%; /*Rounded border*/
 }
 
 /*Style sheet for p tag in about me content */
@@ -216,7 +216,8 @@ li a:hover{
   margin-top: 0px; /*Leave no space at the top of the text*/
   margin: 38px; /*Set distance between each child container*/
   width: 492px; /*Width of container*/
-  height: 440px; /*Height of container*/
+  height: 480px; /*Height of container*/
+  border: 2px solid; /*Set border of hobby elements*/
 }
 
 /*Style sheet for title*/
@@ -225,9 +226,10 @@ li a:hover{
   font-family: sans-serif; /*Set font style*/
   font-weight: bold; /*Bold the text*/
   width: 85px; /*Set width of the title container*/
-  height: fit-content; /*Set height tofit content*/
+  height: fit-content; /*Set height to fit content*/
   margin: auto; /*Set title in the center of the container*/
   margin-bottom: 26px; /*Set space between title and the paragraph text*/
+  margin-top: 43px; /*Set space between title and border*/
 }
 
 /*Style sheet for title content container*/
@@ -235,6 +237,7 @@ li a:hover{
   width: 440px; /*Set width of the content container*/
   height: 360px; /*Set heigh of content container*/
   margin: auto; /*Align container in the center of the child container*/
+  border: 2px solid; /*Set border of hobby text and image content*/
 }
 
 /*Style sheet for title content text*/
