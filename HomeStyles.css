@@ -324,6 +324,7 @@ footer{
   flex-direction: row;
 }
 
+
 /*On screens that are 800px or less, set website layout to the following*/
 @media screen and (max-width: 800px){
     
