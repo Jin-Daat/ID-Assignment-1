@@ -282,6 +282,7 @@ footer{
 }
 
 /*On screens that are 800px or less, set website layout to the following*/
+/*All css script beyong here is to reformat layout of webpage to fit a mobile view*/
 @media screen and (max-width: 800px){
   
 /*Style for child elements inside navBar*/  
