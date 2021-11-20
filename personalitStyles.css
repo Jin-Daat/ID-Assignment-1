@@ -190,6 +190,7 @@ li a:hover{
 .hobbies{
   border: 2px solid;
   width: 100%;
+  height: fit-content;
 }
 
 /*Style sheet for hobby title*/
@@ -200,12 +201,34 @@ li a:hover{
   font-family: sans-serif
 }
 
-/*Style sheet for "Cycling" Header*/
-.cycling{
+/*Style sheet for hooby content container*/
+.hobbyElements{
   border: 2px solid;
+  text-align: center;
 }
 
-/*Style sheet for "Cycling content*/
+/*Style sheet for "Cycling" title*/
+.cycling{
+  border: 2px solid;
+  font-size: 24px;
+  font-family: sans-serif;
+  font-weight: bold;
+  width: 85px;
+  height: fit-content;
+  margin: auto;
+}
+
+/*Style sheet for "Cycling" content container*/
 .cyclingContent{
   border: 2px solid;
+}
+/*Style sheet for "Cycling" content text*/
+.cyclingContent > p{
+  border: 2px solid;
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  width: 358px;
+  height: fit-content;
+  margin: auto;
+  padding-top: 0px;
 }
