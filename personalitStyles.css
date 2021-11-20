@@ -325,7 +325,6 @@ nav{
 
 /*Different color when on pafe*/
 .Home{
-    background-color: #badfe7;
     margin-left: 60px;
 }
     
@@ -333,6 +332,7 @@ nav{
 .dropdownMenu {
   float: left;
   overflow: hidden; /*Hide overflowed items*/
+  background-color: #badfe7;
 }
 
 /*Style for drop down button (Child element)*/  
@@ -460,9 +460,7 @@ li a:hover{
   
 /*Style sheet for about content (child elements) */
 .contentElements{
-  border: 2px solid;
-  margin: auto; /*Align contents in the center of their containers*/
-  justify-content: center;
+  justify-content: center;  /*Align contents in the center of their containers*/
 }
 
 /*Style sheet for image in about me content*/
