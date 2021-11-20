@@ -206,10 +206,11 @@ li a:hover{
 .hobbyContent{
   border: 2px solid;
   display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
   width: 100%;
+  justify-content: center;
   height: fit-content;
-  margin-top: 56px;
+  margin-top: 18px;
 }
 
 /*Style sheet for hobby elements container*/
@@ -217,6 +218,7 @@ li a:hover{
   border: 2px solid;
   text-align: center;
   margin-top: 0px;
+  margin: 38px;
   width: 492px;
   height: 440px;
 }
