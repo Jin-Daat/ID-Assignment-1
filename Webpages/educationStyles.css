@@ -107,6 +107,7 @@ header{
 /*Style sheet for education title*/
 .educationTitle{
   font-size: 54px;
+  font-weight: bold;
   font-family: sans-serif;
   text-align: center;
   width: 269px;
@@ -186,4 +187,86 @@ footer{
   padding: 5px; /*Set space between border of photo*/
   border-radius: 40%; /*Rounded border*/
   text-decoration: none; /*Do not iinclude any decorations between images*/
+}
+
+@media screen and (max-width: 800px){
+/*Style for child elements inside navBar*/  
+.navbar a {
+  font-size: 8px; /*Reset font size to fit mobile screen*/
+  padding: 14px 15px; /*Reset space between text and container*/
+}
+
+
+/*Style for drop down button (Child element)*/  
+.dropdownMenu .dropButton {
+  font-size: 8px;  /*Reset font for mobile view*/
+  padding: 14px 30px; /*Reset space between text and container*/
+}
+
+/*Remove list points, add background color reset browser settings*/
+.navigationBar {
+  font-size: 18px; /*Reset font for mobile view*/
+}
+
+/*Style sheets for drop down button*/
+.dropButton {
+  padding: 14px 30px; /*Reset space between text and container*/
+  font-size: 18px; /*Reset font for mobile view*/
+}
+
+.educationTitle{
+  font-size: 32px;
+  width: fit-content;
+  text-align: left;
+  margin-left: 0px;
+  padding-left: 36px;
+  padding-right: 36px;
+}
+
+.educationElements{
+  max-width: 318px;
+  max-height: fit-content;
+  margin-top: -40px;
+}
+
+.schoolLogo > img{
+  max-width: 141px;
+  max-height: 120px;
+}
+
+.educationContent{
+  text-align: center;
+  padding: 0px;
+}
+
+
+.educationContent > h2{
+  font-size: 12px;
+}
+
+.educationContent > p{
+  font-size: 10px;
+  max-width: 260px;
+  height: fit-content;
+}
+
+/*Style sheet for footer of website*/
+footer{
+  flex-direction: row; /*Align footer in a row*/
+  font-size: 8px; /*Set font size of text in footer*/
+  height: 60px; /*Set height of footer*/
+}
+
+/*Style sheet for contents inside the footer tag*/
+.developer{
+  flex-direction: row; /*Align texts in a row*/
+}
+
+/*Style sheet for socials at the footer*/
+.socialsa > img{
+  width: 21px; /*Set width of photo*/
+  height: 21px; /*Set height of photo*/
+  padding: 3px; /*Set space between border of photo*/
+}
+
 }
