@@ -1,0 +1,417 @@
+/*Style sheet for everything within nav tag 
+standardise all fonts in nav to sans serif*/
+nav{
+  font-family: sans-serif; /*Change font to sans serif*/
+  position: fixed;  /*Whole of navigation bar to have a fixed position on the website*/
+  width: 100%; /*Width of navigation bar to take up whole width of webpage*/
+  z-index: 3; /*Overlaps other content*/
+}
+
+/* Style for navigation bar.*/
+.navbar {
+  background-color:#f6f6f2; /*set background color of navigation bar*/
+}
+
+/*Style for child elements inside navBar*/  
+.navbar a {
+  float: left; /*Float child elements to the left*/
+  font-size: 16px; /*Set font size*/
+  font-family: sans-serif; /*Set font style*/
+  font-weight: bold; /*Bole the words*/
+  color: #388087; /*Color of the words*/
+  text-align: center; /*Align the child elements to the center of their container*/
+  padding: 14px 30px; /*Space around the words*/
+  text-decoration: none; /*No style of text decoration*/
+}
+
+/*Different color when on page*/
+.Home{
+  margin-left: 60px; /*Set space on the left of the home button*/
+}
+    
+/*Style for items inside dropdownMenu (Parent Container)*/
+.dropdownMenu {
+  float: left; /*Float dropdown menu to the left*/
+  overflow: hidden; /*Hide overflowed items*/
+  background-color: #badfe7; /*Set background color when user is on page*/
+}
+
+/*Style for drop down button (Child element)*/  
+.dropdownMenu .dropButton {
+  font-size: 16px;  /*Set font size */
+  font-family: sans-serif; /*Set font family*/
+  font-weight: bold; /*Bold the word*/ 
+  border: none; /*Set no border*/
+  outline: none; /*Set no outlne*/
+  color: #388087; /*Color of word*/
+  padding: 14px 30px; /*Space between word and container*/
+  background-color: inherit; /*Follow background color of set color*/
+  font-family: inherit; /*Follow background color of set color*/
+  margin: 0;
+}
+
+/* Style when hovering over items in the parent container*/
+.navbar a:hover, .dropdownMenu:hover .dropButton {
+  background-color: #badfe7; /*Background color when hoevering over elements*/
+}
+  
+/*Style for items inside dropContent(Parent element)*/
+.dropContent {
+  display: none; /*No format of display*/
+  position: absolute; /*Absolute to "About"*/
+  background-color: white; /*Set back ground color of dropdown content*/
+  min-width: 160px; /*set minimum width*/
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); /*Box shadow on drop contents*/
+  z-index: 3; /*Overlaps every other layer*/
+}
+
+/*Style for child elements inside dropContent*/
+.dropContent a {
+  float: none; /*No float value*/
+  color: #388087; /*Color of word*/
+  padding: 12px 16px; /*Set space between word and container*/
+  text-decoration: none; /*Set no text decoration*/
+  display: block; /*Display item as a block*/
+  text-align: left; /*Align text to the left*/
+}
+  
+/*Style for child elements in dropContent when hovering*/
+.dropContent a:hover {
+  background-color: #badfe7; /*Color when hovering over words in drop down content*/
+}
+  
+/*Display style for items inside dropContent*/
+.dropdownMenu:hover .dropContent {
+  display: block; /*Display items as a block*/
+}
+
+/*Style sheets for drop down button*/
+.dropButton {
+  background-color: #52ab98; /*Set background color*/
+  color: #f6f6f2; /*Color of text to be white*/
+  padding: 14px 30px; /*Set space between text and container*/
+  font-size: 18px; /*Set font size*/
+  border: none; /*Set mo border*/
+  cursor: pointer; /*Cursor to be pointer when on dropButton*/
+}
+
+/*Style sheet for "About Me" Section (Parent Container)*/
+.header{
+  position: relative; /*Set position relative to viewport*/
+  top: 0px; /*Leave no space from the viewport*/
+  max-width: 100%; /*Make width to full screen size*/
+  height: 650px; /*Adjust height to fit content into container*/
+  padding-top: 262px; /*Put distance between title and topof header container*/
+  /*Background image*/
+  background-image: url("https://wallpaperaccess.com/full/99840.jpg");
+  background-size: cover; /*ABckground image to cover container*/
+  background-repeat: no-repeat; /*Do not repeat background image*/
+}
+
+/*Style sheet for "About Me" title*/
+.aboutMe{
+  text-align: center; /*Align title to the center*/
+  font-size: 54px; /*Set font size*/
+  font-family: sans-serif; /*Set font style*/
+  margin-bottom: 80px; /*Create space between title and content*/
+  margin-top: 0px; /*No space betwen top of container and title*/
+  border: 2px solid; /*Place border around title*/
+  border-color: #f2f2f2 ; /*Implement border color*/
+  background-color: #f2f2f2 ; /*Color of background*/
+  width: 275px; /*Width of container*/
+  height: fit-content; /*Height of container to fit content*/
+  margin: auto; /*Align container in the center*/
+}
+
+/*Style sheet for about content*/
+.aboutContent{
+  display: flex; /*make display flexible*/
+  flex-direction: row-reverse; /*Set the order to reverse and align in row*/
+  width: 900px; /*Set width of content container*/
+  margin: auto; /*Align container in the center */
+  color: black; /*Color of text*/
+}
+  
+/*Style sheet for about content (child elements) */
+.contentElements{
+  margin: auto; /*Align contents in the center of their containers*/
+}
+
+/*Style sheet for image in about me content*/
+.aboutContent > img{
+  width: 192px; /*Set width of image*/
+  height: 181px; /*Set height of image*/
+  margin-top: 15px; /*Set space between image and top of parent container*/
+  border-radius:10%; /*Rounded border*/
+}
+
+/*Style sheet for p tag in about me content */
+.aboutContent > p{
+  display: flex;
+  text-align: left; /*Align text to the left of the container*/
+  font-size: 21px; /*Set font size*/
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /*Set font style*/
+  margin-top: 0px; /*No space between text container and top of parent container*/
+  width: 526px; /*Set width of text container*/
+  height: fit-content; /*Set height to fit text content*/
+  line-height: 2.0; /*Adjust spacinig between lines*/
+  word-spacing: 2px; /*Set word spacing between words*/
+  }
+
+/*Stle sheet for hobby section*/
+.hobbies{
+  width: 100%; /*Set width to full size of screen*/
+  height: fit-content;; /*Set height to fit content inside hobby section*/
+  padding-top: 200px; /*Distance of section from the about me header sectiom*/
+  padding-bottom: 140px; /*Put space between section and footer*/
+  /*Background image*/
+  background-image: url("https://wallpaperaccess.com/full/812553.jpg");
+  background-size: cover ; /*Size of background to covercontainer*/
+  background-repeat: no-repeat; /*Do not repeat background image*/
+}
+
+/*Style sheet for hobby title*/
+.hobbyHeader{
+  text-align: center; /*Align title to the center*/
+  font-size: 54px; /*Set font size to 54 pixels*/
+  font-family: sans-serif; /*Set font family of title*/
+  border: 2px solid; /*Set border of title*/
+  width: 314px; /*Set width of container*/
+  height: fit-content; /*Height of container to fit content*/
+  margin:auto; /*Set container to center of screen*/
+  background-color:#f2f2f2; /*Implement background color*/
+  border-color: #f2f2f2; /*Border color*/
+}
+
+/*Style sheet for hobby content container*/
+.hobbyContent{
+  display: flex; /*Make display of container flexible*/
+  flex-wrap: wrap; /*Allow child containers to wrap*/
+  width: 100%; /*Set width to full size of screen*/
+  justify-content: center; /*Make child containers align in the center*/
+  height: fit-content; /*Set height to fit content*/
+  margin-top: 18px; /*Set distance between content and title*/
+}
+
+/*Style sheet for hobby elements container*/
+.hobbyElements{
+  text-align: center; /*Align text in the center */
+  margin-top: 0px; /*Leave no space at the top of the text*/
+  margin: 38px; /*Set distance between each child container*/
+  width: 492px; /*Width of container*/
+  height: 480px; /*Height of container*/
+  border: 2px solid; /*Set border of hobby elements*/
+  border-radius:10%; /*Rounded border*/
+  background-color: #f2f2f2; /*Implememnt background color*/
+  border-color: #f2f2f2; /*Implement border color*/
+}
+
+/*Style sheet for title*/
+.hobbyTitle{
+  font-size: 24px; /*Set font size*/
+  font-family: sans-serif; /*Set font style*/
+  font-weight: bold; /*Bold the text*/
+  width: 85px; /*Set width of the title container*/
+  height: fit-content; /*Set height to fit content*/
+  margin: auto; /*Set title in the center of the container*/
+  margin-bottom: 26px; /*Set space between title and the paragraph text*/
+  margin-top: 43px; /*Set space between title and border*/
+}
+
+/*Style sheet for title content container*/
+.hobbyInfo{
+  width: 440px; /*Set width of the content container*/
+  height: 360px; /*Set heigh of content container*/
+  margin: auto; /*Align container in the center of the child container*/
+  border: 2px solid; /*Set border of hobby text and image content*/
+  border-radius:10%; /*Rounded border*/
+  background-color: #52ab98; /*Background color*/
+  border-color: #52ab98; /*Border color*/
+}
+
+/*Style sheet for title content text*/
+.hobbyInfo > p{
+  font-size: 20px; /*Set font size*/
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /*Set font style*/
+  width: 358px; /*Set width of text content*/
+  height: fit-content; /*Height to fit text content*/
+  margin: auto; /*Align text container in the center*/
+  margin-top: 10px; /*Put distance between text container and content container*/
+  padding-top: 0px; /*remove distance between text container and content container*/
+  margin-bottom: 16px; /*Set distance between text and image*/
+  color: #f2f2f2;/* Color of text*/
+}
+
+/*Style sheet for image in the container content*/
+.hobbyInfo > img{
+  width: 350px; /*Set width of image*/
+  height: 200px; /*Set height of image*/
+  border-radius:10%;  /*Rounded border*/
+}
+
+/*Style sheet for footer of website*/
+footer{
+  display: flex; /*Set flexible display*/
+  flex-direction: row; /*Align footer in a row*/
+  font-size: 14px; /*Set font size of text in footer*/
+  font-family:  'Montserrat', sans-serif;    /*Set font family*/
+  color: #f6f6f2; /*Set color of text*/
+  position: relative; /*Set position relative to viewport*/
+  top: 0px; /*Put 200px of distance between relative position*/
+  border: 2px solid; /*Set border of the footer*/
+  border-color: #388087; /*Set color of the border*/
+  background-color: #388087; /*Set background color of footer*/
+  width: 100%; /*Maximise width*/
+  height: 60px; /*Set height of footer*/
+}
+
+/*Style sheet for contents inside the footer tag*/
+.developer{
+  margin: auto; /*Align text in the center*/
+  display: flex; /*make words flexible*/
+  flex-direction: row; /*Align texts in a row*/
+}
+
+/*Style sheet for socials at the footer*/
+.socialsa > img{
+  width: 36px; /*Set width of photo*/
+  height: 36px; /*Set height of photo*/
+  padding: 5px; /*Set space between border of photo*/
+  border-radius: 40%; /*Rounded border*/
+  text-decoration: none; /*Do not iinclude any decorations between images*/
+}
+
+/*On screens that are 800px or less, set website layout to the following*/
+/*All css script beyong here is to reformat layout of webpage to fit a mobile view*/
+@media screen and (max-width: 800px){
+  
+/*Style for child elements inside navBar*/  
+.navbar a {
+  font-size: 8px;
+  padding: 14px 15px;
+}
+
+/*Style for drop down button (Child element)*/  
+.dropdownMenu .dropButton {
+  font-size: 8px;  
+  padding: 14px 30px;
+}
+ 
+.dropButton {
+  padding: 14px 30px;
+  font-size: 18px;
+}
+
+/*Style sheet for "About Me" Section (Parent Container)*/
+.header{
+  width: 100%; /*Make width to full screen size*/
+  height:500px; /*Adjust height to fit content into container*/
+  padding-top: 122px; /*Put distance between title and topof header container*/
+}
+
+/*Style sheet for "About Me" title*/
+.aboutMe{
+  font-size: 32px; /*Set font size*/
+  margin-bottom: 71px; /*Create space between title and content*/
+  margin-top: 0px; /*Create space betwen top of container and title*/
+}
+
+/*Style sheet for about content*/
+.aboutContent{
+  display: flex; /*make display flexible*/
+  flex-direction: column-reverse; /*Set the order to reverse and align in row*/
+  width: 100%; /*Set width of content container*/
+  justify-content: center; /*Align container in the center */
+}
+ 
+/*Style sheet for image in about me content*/
+.aboutContent > img{
+  width: 114px; /*Set width of image*/
+  height: 108px; /*Set height of image*/
+  margin-top: 15px; /*Set space between image and top of parent container*/
+  margin-bottom: 27px; /*Put some space between image and text*/
+  border-radius:10%; /*Rounded border*/
+}
+
+/*Style sheet for p tag in about me content */
+.aboutContent > p{
+  font-size: 10px; /*Set font size*/
+  width: 324px; /*Set width of text container*/
+  height: fit-content; /*Set height to fit text content*/
+  color:#f2f2f2
+  }
+
+/*Stle sheet for hobby section*/
+.hobbies{
+  padding-top: 120px; /*Distance of section from the about me header sectiom*/
+}
+
+/*Style sheet for hobby title*/
+.hobbyHeader{
+  font-size: 32px; /*Set font size to 54 pixels*/
+}
+
+/*Style sheet for hobby content container*/
+.hobbyContent{
+  justify-content: center; /*Make child containers align in the center*/
+  height: fit-content; /*Set height to fit content*/
+  margin-top: 18px; /*Set distance between content and title*/
+}
+
+/*Style sheet for hobby elements container*/
+.hobbyElements{
+  margin: 38px; /*Set distance between each child container*/
+  width: 318px; /*Width of container*/
+  height: 288px; /*Height of container*/
+}
+
+/*Style sheet for title*/
+.hobbyTitle{
+  font-size: 12px; /*Set font size*/
+  width: 85px; /*Set width of the title container*/
+  height: fit-content; /*Set height to fit content*/
+  margin: auto; /*Set title in the center of the container*/
+  margin-bottom: 26px; /*Set space between title and the paragraph text*/
+  margin-top: 43px; /*Set space between title and border*/
+}
+
+/*Style sheet for title content container*/
+.hobbyInfo{
+  width: 285px; /*Set width of the content container*/
+  height: 190px; /*Set heigh of content container*/
+  margin: auto; /*Align container in the center of the child container*/
+  border: 2px solid; /*Set border of hobby text and image content*/
+}
+
+/*Style sheet for title content text*/
+.hobbyInfo > p{
+  font-size: 10px; /*Set font size*/
+  width: 232px; /*Set width of text content*/
+}
+
+/*Style sheet for image in the container content*/
+.hobbyInfo > img{
+  width: 232px; /*Set width of image*/
+  height: 110px; /*Set height of image*/
+  border-radius:10%; /*Rounded border*/
+}
+
+/*Style sheet for footer of website*/
+footer{
+  flex-direction: row; /*Align footer in a row*/
+  font-size: 8px; /*Set font size of text in footer*/
+  height: 60px; /*Set height of footer*/
+}
+
+/*Style sheet for contents inside the footer tag*/
+.developer{
+  flex-direction: row; /*Align texts in a row*/
+}
+
+/*Style sheet for socials at the footer*/
+.socialsa > img{
+  width: 21px; /*Set width of photo*/
+  height: 21px; /*Set height of photo*/
+  padding: 3px; /*Set space between border of photo*/
+}
+}
