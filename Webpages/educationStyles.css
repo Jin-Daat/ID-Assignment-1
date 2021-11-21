@@ -1,3 +1,11 @@
+/*Style sheet for body*/
+/*Background image */
+body{
+  background-image: linear-gradient(rgba(223, 217, 217, 0.5), rgba(204, 201, 201, 0.5)),url("https://thumbs.dreamstime.com/t/stationery-background-school-tools-seamless-pattern-art-education-wallpaper-line-icons-pencil-pen-paintbrush-palette-169146507.jpg");
+  background-repeat: repeat;
+  opacity: 1;
+}
+
 /*Style sheet for everything within nav tag 
 standardise all fonts in nav to sans serif*/
 nav{
@@ -98,11 +106,9 @@ nav{
 /*Style sheet for header section*/
 header{
   padding-top: 229px;
-  width: 100%;
+  max-width: 100%;
   height: fit-content;
 }
-
-
 
 /*Style sheet for education title*/
 .educationTitle{
@@ -113,11 +119,12 @@ header{
   width: 269px;
   height: 74px;
   margin-left: 300px;
-  margin-bottom: 115px;;
+  margin-bottom: 115px;
+  background-color: white;
 }
 
 .educationElements{
-  border:2px solid;
+  border:none;
   border-radius: 10px;;
   max-width: 1120px;
   height: fit-content;
@@ -126,12 +133,14 @@ header{
   margin: auto;
   margin-bottom: 119px;
   justify-content: center;
+  background-color: #2b6777 ;
 }
 
 .educationContent{
   display: flex;
   flex-direction: column;
-  padding-left: 200px;;
+  padding-left: 200px;
+  color: #f6f6f2;
 }
 
 .educationContent > h2{
@@ -155,6 +164,7 @@ header{
   max-width: 230px;
   height: 215px;
   margin-top: 30px;
+  background-color: #ffffff;
 }
 
 /*Style sheet for footer of website*/
@@ -214,13 +224,20 @@ footer{
   font-size: 18px; /*Reset font for mobile view*/
 }
 
+.header{
+  padding-top: 100px;
+  margin-bottom: 90px;
+}
+
+/*Style sheet for education title*/
 .educationTitle{
-  font-size: 32px;
-  width: fit-content;
-  text-align: left;
-  margin-left: 0px;
-  padding-left: 36px;
-  padding-right: 36px;
+  font-size: 21px;
+  font-weight: bold;
+  font-family: sans-serif;
+  text-align: center;
+  width: 159px;
+  height: fit-content;
+  margin: auto;
 }
 
 .educationElements{
