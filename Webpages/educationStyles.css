@@ -97,11 +97,12 @@ nav{
 
 /*Style sheet for header section*/
 header{
-  border: 2px solid;
   padding-top: 229px;
   width: 100%;
   height: fit-content;
 }
+
+
 
 /*Style sheet for education title*/
 .educationTitle{
@@ -111,29 +112,28 @@ header{
   width: 269px;
   height: 74px;
   margin-left: 300px;
-  border: 2px solid;
   margin-bottom: 115px;;
 }
 
 .educationElements{
   border:2px solid;
+  border-radius: 10px;;
   max-width: 1120px;
   height: fit-content;
   display: flex;
-  margin: auto;
   flex-wrap: wrap;
+  margin: auto;
+  margin-bottom: 119px;
   justify-content: center;
 }
 
 .educationContent{
-  border: 2px solid;
   display: flex;
   flex-direction: column;
   padding-left: 200px;;
 }
 
 .educationContent > h2{
-  border: 2px solid;
   max-width: 262px;
   height: fit-content;
   font-size: 24px;
@@ -142,7 +142,6 @@ header{
 }
 
 .educationContent > p{
-  border: 2px solid;
   font-size: 20px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   max-width: 518px;
@@ -154,6 +153,37 @@ header{
 .schoolLogo > img{
   max-width: 230px;
   height: 215px;
-  border: 2px solid;
-  margin-top: 20px;
+  margin-top: 30px;
+}
+
+/*Style sheet for footer of website*/
+footer{
+  display: flex; /*Set flexible display*/
+  flex-direction: row; /*Align footer in a row*/
+  font-size: 14px; /*Set font size of text in footer*/
+  font-family:  'Montserrat', sans-serif;    /*Set font family*/
+  color: #f6f6f2; /*Set color of text*/
+  position: relative; /*Set position relative to viewport*/
+  top: 0px; /*Put 200px of distance between relative position*/
+  border: 2px solid; /*Set border of the footer*/
+  border-color: #388087; /*Set color of the border*/
+  background-color: #388087; /*Set background color of footer*/
+  width: 100%; /*Maximise width*/
+  height: 60px; /*Set height of footer*/
+}
+
+/*Style sheet for contents inside the footer tag*/
+.developer{
+  margin: auto; /*Align text in the center*/
+  display: flex; /*make words flexible*/
+  flex-direction: row; /*Align texts in a row*/
+}
+
+/*Style sheet for socials at the footer*/
+.socialsa > img{
+  width: 36px; /*Set width of photo*/
+  height: 36px; /*Set height of photo*/
+  padding: 5px; /*Set space between border of photo*/
+  border-radius: 40%; /*Rounded border*/
+  text-decoration: none; /*Do not iinclude any decorations between images*/
 }
