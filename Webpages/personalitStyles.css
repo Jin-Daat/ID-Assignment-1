@@ -34,7 +34,6 @@ nav{
   float: left; /*Float dropdown menu to the left*/
   overflow: hidden; /*Hide overflowed items*/
   background-color: #badfe7; /*Set background color when user is on page*/
-
 }
 
 /*Style for drop down button (Child element)*/  
@@ -101,7 +100,8 @@ nav{
   position: relative; /*Set position relative to viewport*/
   top: 0px; /*Leave no space from the viewport*/
   max-width: 100%; /*Make width to full screen size*/
-  height: 950px; /*Adjust height to fit content into container*/
+  height: 650px; /*Adjust height to fit content into container*/
+  padding-top: 262px; /*Put distance between title and topof header container*/
   /*Background image*/
   background-image: url("https://wallpaperaccess.com/full/99840.jpg");
   background-size: cover; /*ABckground image to cover container*/
@@ -113,11 +113,14 @@ nav{
   text-align: center; /*Align title to the center*/
   font-size: 54px; /*Set font size*/
   font-family: sans-serif; /*Set font style*/
+  margin-bottom: 80px; /*Create space between title and content*/
+  margin-top: 0px; /*No space betwen top of container and title*/
   border: 2px solid; /*Place border around title*/
   border-color: #f2f2f2 ; /*Implement border color*/
   background-color: #f2f2f2 ; /*Color of background*/
   width: 275px; /*Width of container*/
   height: fit-content; /*Height of container to fit content*/
+  margin: auto; /*Align container in the center*/
 }
 
 /*Style sheet for about content*/
@@ -126,7 +129,6 @@ nav{
   flex-direction: row-reverse; /*Set the order to reverse and align in row*/
   width: 900px; /*Set width of content container*/
   margin: auto; /*Align container in the center */
-  margin-top: 400px;
   color: black; /*Color of text*/
 }
   
