@@ -232,7 +232,7 @@ footer{
 
 /*Style sheet for education title*/
 .educationTitle{
-  font-size: 21px; /*Reset the font size*/
+  font-size: 32px; /*Reset the font size*/
   text-align: center; /*Align text in the center*/
   width: 159px; /*Set width of the container*/
   height: fit-content; /*Height of container to fit content*/

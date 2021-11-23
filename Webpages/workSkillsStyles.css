@@ -96,13 +96,11 @@ nav{
 }
 
 header{
-  border: 2px solid;
   padding-top: 284px;
   height: fit-content;
 }
 
 .headerTitle{
-  border: 2px solid;
   font-size: 54px;
   font-family: sans-serif;
   text-align: center;
@@ -112,7 +110,6 @@ header{
 }
 
 .headerContent{
-  border: 2px solid;
   max-width: 100%;
   height: fit-content;
   display: flex;
@@ -126,12 +123,11 @@ header{
   max-width: 536px;
   height: 560px;
   text-align: left;
-  padding: 2px;
+  padding: 5px;
   margin: 16px;
 }
 
 .workElements > h2{
-  border: 2px solid;
   font-size: 24px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-weight: bold;
@@ -140,7 +136,6 @@ header{
 }
 
 .workContent> p{
-  border: 2px solid;
   font-size: 20px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   max-width: 502px;
@@ -149,17 +144,15 @@ header{
   word-spacing: 2px;
 }
 
-img{
+.workContent > img{
   max-width: 87px;
   max-height: 58px;
-  border: 2px solid;
   padding: 0px;
   margin-bottom: 0px;
 }
 
 
 .skillsAwards{
-  border: 2px solid;
   max-width: 100%;
   max-height: fit-content;
   padding-top: 168px;
@@ -178,7 +171,6 @@ img{
 }
 
 .skillsAwardsContent{
-  border: 2px solid;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -190,10 +182,10 @@ img{
   flex-direction: column;
   max-width: 475px;
   margin: 14px;
+  padding: 5px;
 }
 
 .skillsContainer > h2{
-  border: 2px solid;
   font-size: 24px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-weight: bold;
@@ -203,7 +195,6 @@ img{
 }
 
 .skillsContainer > ul{
-  border: 2px solid;
   font-size: 20px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   max-width: 502px;
@@ -242,4 +233,98 @@ footer{
   padding: 5px; /*Set space between border of photo*/
   border-radius: 40%; /*Rounded border*/
   text-decoration: none; /*Do not iinclude any decorations between images*/
+}
+
+/*All Content here are adjusted and resized in order to fit a mobiel view*/
+@media screen and (max-width: 800px){
+/*Style for child elements inside navBar*/  
+.navbar a {
+  font-size: 8px; /*Reset font size to fit mobile screen*/
+  padding: 14px 15px; /*Reset space between text and container*/
+}
+
+
+/*Style for drop down button (Child element)*/  
+.dropdownMenu .dropButton {
+  font-size: 8px;  /*Reset font for mobile view*/
+  padding: 14px 30px; /*Reset space between text and container*/
+}
+
+/*Remove list points, add background color reset browser settings*/
+.navigationBar {
+  font-size: 18px; /*Reset font for mobile view*/
+}
+
+/*Style sheets for drop down button*/
+.dropButton {
+  padding: 14px 30px; /*Reset space between text and container*/
+  font-size: 18px; /*Reset font for mobile view*/
+}
+
+header{
+  padding-top: 100px;
+}
+
+.headerTitle{
+  font-size: 32px;
+  max-width: 269px;
+}
+
+.workElements{
+  font-size: 12;
+  max-width: 240px;
+  max-height: 320px;
+}
+
+.workElements > h2{
+  font-size: 12px;
+  max-width: 239px;
+}
+
+.workContent > p{
+  font-size: 10px;
+  max-width: 270px;;
+}
+
+.workContent > img{
+  max-width: 51px;
+  max-height: 46px;
+}
+
+.sectionTitle{
+  font-size: 32px;
+  max-width: 269px;
+}
+
+.skillsContainer{
+  max-width: 318px;
+}
+
+.skillsContainer > h2{
+  font-size: 12px;
+  max-width: 239px;
+}
+
+.skillsContainer > ul{
+  font-size: 10px;
+}
+
+/*Style sheet for footer of website*/
+footer{
+  flex-direction: row; /*Align footer in a row*/
+  font-size: 8px; /*Set font size of text in footer*/
+  height: 60px; /*Set height of footer*/
+}
+
+/*Style sheet for contents inside the footer tag*/
+.developer{
+  flex-direction: row; /*Align texts in a row*/
+}
+
+/*Style sheet for socials at the footer*/
+.socialsa > img{
+  width: 21px; /*Set width of photo*/
+  height: 21px; /*Set height of photo*/
+  padding: 3px; /*Set space between border of photo*/
+}
 }
