@@ -98,6 +98,7 @@ nav{
 header{
   border: 2px solid;
   padding-top: 284px;
+  height: fit-content;
 }
 
 .headerTitle{
@@ -123,7 +124,7 @@ header{
 .workElements{
   border: 2px solid;
   max-width: 536px;
-  height: 480px;
+  height: 560px;
   text-align: left;
   padding: 2px;
   margin: 16px;
@@ -147,6 +148,15 @@ header{
   line-height: 1.5;
   word-spacing: 2px;
 }
+
+img{
+  max-width: 87px;
+  max-height: 58px;
+  border: 2px solid;
+  padding: 0px;
+  margin-bottom: 0px;
+}
+
 
 .skillsAwards{
   border: 2px solid;
