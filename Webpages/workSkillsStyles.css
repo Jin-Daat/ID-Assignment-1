@@ -96,54 +96,108 @@ nav{
 }
 
 header{
-    border: 2px solid;
-    padding-top: 284px;
+  border: 2px solid;
+  padding-top: 284px;
 }
 
 .headerTitle{
-    border: 2px solid;
-    font-size: 54px;
-    font-family: sans-serif;
-    text-align: center;
-    max-width: 453px;
-    height: fit-content;
-    margin: auto;
+  border: 2px solid;
+  font-size: 54px;
+  font-family: sans-serif;
+  text-align: center;
+  max-width: 453px;
+  height: fit-content;
+  margin: auto;
 }
 
 .headerContent{
-    border: 2px solid;
-    max-width: 100%;
-    height: fit-content;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding-top: 68px;;
+  border: 2px solid;
+  max-width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 68px;;
 }
 
 .workElements{
-    border: 2px solid;
-    max-width: 536px;
-    height: 480px;
-    text-align: left;
-    padding: 2px;
-    margin: 16px;
+  border: 2px solid;
+  max-width: 536px;
+  height: 480px;
+  text-align: left;
+  padding: 2px;
+  margin: 16px;
 }
 
 .workElements > h2{
-    border: 2px solid;
-    font-size: 24px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: bold;
-    max-width: 100%;
-    height: fit-content;
+  border: 2px solid;
+  font-size: 24px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  max-width: 100%;
+  height: fit-content;
 }
 
 .workContent> p{
-    border: 2px solid;
-    font-size: 20px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    max-width: 502px;
-    height: fit-content;
-    line-height: 1.5;
-    word-spacing: 2px;
+  border: 2px solid;
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  max-width: 502px;
+  height: fit-content;
+  line-height: 1.5;
+  word-spacing: 2px;
+}
+
+.skillsAwards{
+  border: 2px solid;
+  max-width: 100%;
+  max-height: fit-content;
+  padding-top: 168px;
+  padding-bottom: 60px;
+}
+
+.sectionTitle{
+  border: 2px solid;
+  font-size: 54px;
+  font-family: sans-serif;
+  text-align: center;
+  max-width: 463px;
+  height: fit-content;
+  margin: auto;
+  margin-bottom: 60px;
+}
+
+.skillsAwardsContent{
+  border: 2px solid;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.skillsContainer{
+  border: 2px solid;
+  display: flex;
+  flex-direction: column;
+  max-width: 475px;
+  margin: 14px;
+}
+
+.skillsContainer > h2{
+  border: 2px solid;
+  font-size: 24px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  max-width: 100%;
+  height: fit-content;
+  margin-bottom: -12px;
+}
+
+.skillsContainer > ul{
+  border: 2px solid;
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  max-width: 502px;
+  height: fit-content;
+  line-height: 1.5;
+  word-spacing: 2px;
 }
