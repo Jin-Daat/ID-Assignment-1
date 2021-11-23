@@ -201,3 +201,35 @@ header{
   line-height: 1.5;
   word-spacing: 2px;
 }
+
+/*Style sheet for footer of website*/
+footer{
+  display: flex; /*Set flexible display*/
+  flex-direction: row; /*Align footer in a row*/
+  font-size: 14px; /*Set font size of text in footer*/
+  font-family:  'Montserrat', sans-serif;    /*Set font family*/
+  color: #f6f6f2; /*Set color of text*/
+  position: relative; /*Set position relative to viewport*/
+  top: 0px; /*Put 200px of distance between relative position*/
+  border: 2px solid; /*Set border of the footer*/
+  border-color: #388087; /*Set color of the border*/
+  background-color: #388087; /*Set background color of footer*/
+  width: 100%; /*Maximise width*/
+  height: 60px; /*Set height of footer*/
+}
+
+/*Style sheet for contents inside the footer tag*/
+.developer{
+  margin: auto; /*Align text in the center*/
+  display: flex; /*make words flexible*/
+  flex-direction: row; /*Align texts in a row*/
+}
+
+/*Style sheet for socials at the footer*/
+.socialsa > img{
+  width: 36px; /*Set width of photo*/
+  height: 36px; /*Set height of photo*/
+  padding: 5px; /*Set space between border of photo*/
+  border-radius: 40%; /*Rounded border*/
+  text-decoration: none; /*Do not iinclude any decorations between images*/
+}
