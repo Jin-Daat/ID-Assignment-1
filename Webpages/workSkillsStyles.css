@@ -1,3 +1,11 @@
+/*Style sheet for body*/
+/*Background image */
+body{
+  background-image: linear-gradient(rgba(223, 217, 217, 0.5), rgba(204, 201, 201, 0.5)),url("https://thumbs.dreamstime.com/t/stationery-background-school-tools-seamless-pattern-art-education-wallpaper-line-icons-pencil-pen-paintbrush-palette-169146507.jpg");
+  background-repeat: repeat;
+  opacity: 1;
+}
+
 /*Style sheet for everything within nav tag 
 standardise all fonts in nav to sans serif*/
 nav{
@@ -107,6 +115,7 @@ header{
   max-width: 453px;
   height: fit-content;
   margin: auto;
+  background-color: #f6f6f2;
 }
 
 .headerContent{
@@ -125,6 +134,9 @@ header{
   text-align: left;
   padding: 5px;
   margin: 16px;
+  border-radius: 10px;
+  background-color:#52ab98;
+  color: #f6f6f2;
 }
 
 .workElements > h2{
@@ -151,7 +163,6 @@ header{
   margin-bottom: 0px;
 }
 
-
 .skillsAwards{
   max-width: 100%;
   max-height: fit-content;
@@ -160,7 +171,6 @@ header{
 }
 
 .sectionTitle{
-  border: 2px solid;
   font-size: 54px;
   font-family: sans-serif;
   text-align: center;
@@ -168,6 +178,7 @@ header{
   height: fit-content;
   margin: auto;
   margin-bottom: 60px;
+  background-color: #f6f6f2;
 }
 
 .skillsAwardsContent{
@@ -183,6 +194,9 @@ header{
   max-width: 475px;
   margin: 14px;
   padding: 5px;
+  border-radius: 10px;
+  background-color: #2b6777;
+  color: #f6f6f2;
 }
 
 .skillsContainer > h2{
