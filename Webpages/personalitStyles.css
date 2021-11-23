@@ -1,3 +1,11 @@
+/*Style sheet for body*/
+/*Background image */
+body{
+  background-image: linear-gradient(rgba(223, 217, 217, 0.5), rgba(204, 201, 201, 0.5)),url("https://thumbs.dreamstime.com/t/stationery-background-school-tools-seamless-pattern-art-education-wallpaper-line-icons-pencil-pen-paintbrush-palette-169146507.jpg");
+  background-repeat: repeat;
+  opacity: 1;
+}
+
 /*Style sheet for everything within nav tag 
 standardise all fonts in nav to sans serif*/
 nav{
@@ -102,10 +110,6 @@ nav{
   max-width: 100%; /*Make width to full screen size*/
   height: 650px; /*Adjust height to fit content into container*/
   padding-top: 262px; /*Put distance between title and topof header container*/
-  /*Background image*/
-  background-image: url("https://wallpaperaccess.com/full/99840.jpg");
-  background-size: cover; /*ABckground image to cover container*/
-  background-repeat: no-repeat; /*Do not repeat background image*/
 }
 
 /*Style sheet for "About Me" title*/
@@ -130,6 +134,10 @@ nav{
   width: 900px; /*Set width of content container*/
   margin: auto; /*Align container in the center */
   color: black; /*Color of text*/
+  background-color: #52ab98; /*Set background color of container*/
+  padding: 5px; /*Set space between content and container*/
+  border-radius: 10px; /*Round border*/
+  color: #f6f6f2; /*Set color of text in the container*/
 }
   
 /*Style sheet for about content (child elements) */
@@ -164,10 +172,6 @@ nav{
   height: fit-content;; /*Set height to fit content inside hobby section*/
   padding-top: 200px; /*Distance of section from the about me header sectiom*/
   padding-bottom: 140px; /*Put space between section and footer*/
-  /*Background image*/
-  background-image: url("https://wallpaperaccess.com/full/812553.jpg");
-  background-size: cover ; /*Size of background to covercontainer*/
-  background-repeat: no-repeat; /*Do not repeat background image*/
 }
 
 /*Style sheet for hobby title*/
