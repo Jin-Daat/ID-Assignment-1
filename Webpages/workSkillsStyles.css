@@ -104,7 +104,7 @@ nav{
 }
 
 /*Style sheets for the header section of the webpage*/
-.workheader{
+.workexpheader{
   padding-top: 284px; /*Amount of space at the top of the container*/
   height: fit-content; /*Height of the container to fit the content*/
 }
@@ -288,7 +288,7 @@ footer{
   font-size: 18px; /*Reset font for mobile view*/
 }
 
-.workheader{
+.workexpheader{
   padding-top: 100px; /*Reset the space on top of the header section*/
 }
 
