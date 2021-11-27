@@ -138,7 +138,7 @@ footer{
 /*Style sheet for home page body*/
 .homebody{
   /*Background image for the website*/
-  background-image: url("https://images.unsplash.com/photo-1551554781-c46200ea959d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8&w=1000&q=80");
+  background-image: url("Images/homeBackground.jpg");
   background-repeat: repeat; /*Do not repeat the background image*/
 }
 
@@ -148,7 +148,7 @@ footer{
   font-family: sans-serif; /*Set font family*/
   position: realtive; /*Position is relative to the viewport*/
   /*Background image for the header section*/
-  background-image: url("https://i.pinimg.com/originals/2c/4b/d8/2c4bd83620ea9b7fca769f5f2df69dfe.jpg");
+  background-image: url("Images/homeHeaderBackground.jpg");
   background-repeat: no-repeat; /*Do not repeat backgroun image*/
   background-size: cover;
   max-width: 100%; /*Set width to size of website*/
@@ -247,7 +247,7 @@ footer{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /*Set font style*/
   color:black; /*Color of text*/
   /*Insert background image*/
-  background-image: url("https://www.longrunfiji.com/wp-content/uploads/2018/02/circles-dark.png");
+  background-image: url("Images/formBackground.png");
 }
 
 
@@ -316,7 +316,7 @@ form{
 /*Style sheet for body*/
 /*Background image */
 .aboutbody{
-  background-image: linear-gradient(rgba(223, 217, 217, 0.5), rgba(204, 201, 201, 0.5)),url("https://thumbs.dreamstime.com/t/stationery-background-school-tools-seamless-pattern-art-education-wallpaper-line-icons-pencil-pen-paintbrush-palette-169146507.jpg");
+  background-image: linear-gradient(rgba(223, 217, 217, 0.5), rgba(204, 201, 201, 0.5)),url("Images/aboutBackground.jpg");
   background-repeat: repeat;
   opacity: 1;
 }
