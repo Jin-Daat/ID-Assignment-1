@@ -1,6 +1,6 @@
 /*Style sheet for body*/
 /*Background image */
-body{
+.aboutbody{
   background-image: linear-gradient(rgba(223, 217, 217, 0.5), rgba(204, 201, 201, 0.5)),url("https://thumbs.dreamstime.com/t/stationery-background-school-tools-seamless-pattern-art-education-wallpaper-line-icons-pencil-pen-paintbrush-palette-169146507.jpg");
   background-repeat: repeat;
   opacity: 1;
@@ -104,7 +104,7 @@ nav{
 }
 
 /*Style sheet for "About Me" Section (Parent Container)*/
-.header{
+.AboutMeheader{
   position: relative; /*Set position relative to viewport*/
   top: 0px; /*Leave no space from the viewport*/
   max-width: 100%; /*Make width to full screen size*/
@@ -307,7 +307,7 @@ footer{
 }
 
 /*Style sheet for "About Me" Section (Parent Container)*/
-.header{
+.AboutMeheader{
   width: 100%; /*Make width to full screen size*/
   height:500px; /*Adjust height to fit content into container*/
   padding-top: 122px; /*Put distance between title and topof header container*/
@@ -326,6 +326,11 @@ footer{
   flex-direction: column-reverse; /*Set the order to reverse and align in row*/
   width: 100%; /*Set width of content container*/
   justify-content: center; /*Align container in the center */
+}
+
+/*Style sheet for text inside the text container*/
+.aboutContent > p{
+  text-align: center; /*Align text in the center*/
 }
  
 /*Style sheet for image in about me content*/
