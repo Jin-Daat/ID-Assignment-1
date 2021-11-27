@@ -135,7 +135,7 @@ nav{
   margin: auto; /*Align container in the center */
   color: black; /*Color of text*/
   background-color: #52ab98; /*Set background color of container*/
-  padding: 5px; /*Set space between content and container*/
+  padding: 10px; /*Set space between content and container*/
   border-radius: 10px; /*Round border*/
   color: #f6f6f2; /*Set color of text in the container*/
 }
