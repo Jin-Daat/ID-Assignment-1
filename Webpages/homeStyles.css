@@ -101,8 +101,9 @@ nav{
   cursor: pointer; /*Cursor to be pointer when on dropButton*/
 }
 
+/*ALL CSS STYLE FOR HOME PAGE STARTS HERE*/
 /*Style for items inside header*/
-.header{
+.homeheader{
   text-align: center; /*Align text in the center*/
   font-family: sans-serif; /*Set font family*/
   position: realtive; /*Position is relative to the viewport*/
@@ -129,7 +130,7 @@ nav{
 }
 
 /*Style sheet for subheader name*/
-.subheader{
+.Homesubheader{
   font-size: 21px; /*Set font size*/
   font-family:  'Montserrat', sans-serif; /*Set font family*/
   margin: 10px; /*Set space outside of sub header container*/
@@ -153,7 +154,7 @@ nav{
 }
 
 /*Style sheet for my socials (images)*/
-img{
+.socials > img{
   width: 36px; /*Set width of image*/
   height: 36px; /*Set height if image*/
   padding: 5px; /*Space between image and container*/
@@ -187,6 +188,10 @@ img{
   margin: auto; /*Set container in the center*/
   margin-bottom: 40px; /*Space outside and below the container*/
 }  
+
+.contactSection{
+  padding-bottom: 200px;
+}
 
 /*Style sheet for items inside the contact me section*/
 .contactMe{
@@ -267,25 +272,34 @@ form{
 
 /*Style sheet for footer of website*/
 footer{
-  display: flex; /*Flexible display*/
-  flex-direction: row; /*Arrange items in rows*/
-  font-size: 14px; /*Set font size*/
-  font-family:  'Montserrat', sans-serif; /*Set font style*/
+  display: flex; /*Set flexible display*/
+  flex-direction: row; /*Align footer in a row*/
+  font-size: 14px; /*Set font size of text in footer*/
+  font-family:  'Montserrat', sans-serif;    /*Set font family*/
   color: #f6f6f2; /*Set color of text*/
-  position: relative; /*Position is relative to the viewport*/
-  top: 200px; /*Space on top from relative position*/
+  position: relative; /*Set position relative to viewport*/
+  top: 0px; /*Put 200px of distance between relative position*/
   border: 2px solid; /*Set border of the footer*/
-  border-color: #388087; /*Set border color*/
-  background-color: #388087; /*Set background color*/
-  width: 100%; /*Utilise full width of webpage*/
+  border-color: #388087; /*Set color of the border*/
+  background-color: #388087; /*Set background color of footer*/
+  width: 100%; /*Maximise width*/
   height: 60px; /*Set height of footer*/
 }
 
 /*Style sheet for contents inside the footer tag*/
 .developer{
   margin: auto; /*Align text in the center*/
-  display: flex; /*flexible display*/
-  flex-direction: row; /*Arrange items in a row*/
+  display: flex; /*make words flexible*/
+  flex-direction: row; /*Align texts in a row*/
+}
+
+/*Style sheet for socials at the footer*/
+.socialsa > img{
+  width: 36px; /*Set width of photo*/
+  height: 36px; /*Set height of photo*/
+  padding: 5px; /*Set space between border of photo*/
+  border-radius: 40%; /*Rounded border*/
+  text-decoration: none; /*Do not iinclude any decorations between images*/
 }
 
 
@@ -317,7 +331,7 @@ footer{
 }
 
 /*Style for items inside header*/
-.header{
+.homeheader{
   height: 700px; /*Reset height for mobile view*/
 }
 
@@ -331,7 +345,7 @@ footer{
 }
 
 /*Style sheet for subheader name*/
-.subheader{
+.Homesubheader{
   font-size: 10px; /*Reset font size*/
   margin: 10px; /*Reset space outside container for mobile*/
 }
@@ -351,7 +365,7 @@ footer{
 
 /*Style sheet for my socials (images)*/
 /*All Content are adjusted to fit mobile views*/
-img{
+.socials > img{
   width: 21px;
   height: 21px;
   padding: 5px;
@@ -449,15 +463,22 @@ input{
   cursor: pointer;
 }
 
-
 /*Style sheet for footer of website*/
-/*All Content are adjusted to fit mobile views*/
 footer{
-  font-size: 8px;
-  position: relative;
-  top: 200px;
-  width: 100%;
-  height: 60px;
+  flex-direction: row; /*Align footer in a row*/
+  font-size: 8px; /*Set font size of text in footer*/
+  height: 60px; /*Set height of footer*/
 }
 
+/*Style sheet for contents inside the footer tag*/
+.developer{
+  flex-direction: row; /*Align texts in a row*/
+}
+
+/*Style sheet for socials at the footer*/
+.socialsa > img{
+  width: 21px; /*Set width of photo*/
+  height: 21px; /*Set height of photo*/
+  padding: 3px; /*Set space between border of photo*/
+}
 }
