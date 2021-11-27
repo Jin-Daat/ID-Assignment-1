@@ -1,6 +1,6 @@
 /*Style sheet for body*/
 /*Background image */
-body{
+.aboutbody{
   background-image: linear-gradient(rgba(223, 217, 217, 0.5), rgba(204, 201, 201, 0.5)),url("https://thumbs.dreamstime.com/t/stationery-background-school-tools-seamless-pattern-art-education-wallpaper-line-icons-pencil-pen-paintbrush-palette-169146507.jpg");
   background-repeat: repeat;
   opacity: 1;
@@ -104,7 +104,7 @@ nav{
 }
 
 /*Style sheet for header section*/
-header{
+.educationheader{
   padding-top: 229px; /*Increase space above inside header container*/
   max-width: 100%; /*max width is full width of webpage*/
   height: fit-content; /*Height of header container to fit content*/
@@ -225,7 +225,7 @@ footer{
   font-size: 18px; /*Reset font for mobile view*/
 }
 
-.header{
+.educationheader{
   padding-top: 100px; /*Add space from the top of the header container*/
   margin-bottom: 90px; /*Space below the header container*/
 }

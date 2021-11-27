@@ -472,6 +472,81 @@ form{
   border-radius:10%;  /*Rounded border*/
 }
 
+/*=========================================================================================================================================*/
+/*CSS FOR EDUCATION PAGE STARTS HERE*/
+/*=========================================================================================================================================*/
+/*Style sheet for body*/
+/*Background image */
+.aboutbody{
+  background-image: linear-gradient(rgba(223, 217, 217, 0.5), rgba(204, 201, 201, 0.5)),url("https://thumbs.dreamstime.com/t/stationery-background-school-tools-seamless-pattern-art-education-wallpaper-line-icons-pencil-pen-paintbrush-palette-169146507.jpg");
+  background-repeat: repeat;
+  opacity: 1;
+}
+
+/*Style sheet for header section*/
+.educationheader{
+  padding-top: 229px; /*Increase space above inside header container*/
+  max-width: 100%; /*max width is full width of webpage*/
+  height: fit-content; /*Height of header container to fit content*/
+}
+
+/*Style sheet for education title*/
+.educationTitle{
+  font-size: 54px; /*Set font size*/
+  font-weight: bold; /*Bold the text*/
+  font-family: sans-serif; /*Set font style*/
+  text-align: center; /*Align the text in the center*/
+  width: 269px; /*Set width of text container*/
+  height: 74px; /*Set height of text container*/
+  margin-left: 300px; /*Set space outside the container on the left*/
+  margin-bottom: 115px; /*Set space below and outside the container*/
+  background-color: white; /*Set background color of the container*/
+}
+
+.educationElements{
+  border:none; /*No border for the container*/
+  border-radius: 10px; /*Round the border of container*/
+  max-width: 1120px; /*Max width of container, can go smaller if screen size is smaller*/
+  height: fit-content; /*Height of container to fit content*/
+  display: flex; /*Make display flexible*/
+  flex-wrap: wrap; /*Wrap items if there isn't enough space*/
+  margin: auto; /*Set container in the center of the screen*/
+  margin-bottom: 119px; /*Set space outside and bottom of the container*/
+  justify-content: center; /*Place content in the center of the parent container*/
+  background-color: #2b6777 ; /*Set background color of the container*/
+}
+
+.educationContent{
+  display: flex; /*Make display flexible*/
+  flex-direction: column; /*Arrange flex items in a column*/
+  padding-left: 200px; /*Add space inside the container at the left*/
+  color: #f6f6f2; /*Color of text in the container*/
+}
+
+.educationContent > h2{
+  max-width: 262px; /*maximum width of the container, can decrease in size*/
+  height: fit-content; /*Height of container to fit content*/
+  font-size: 24px; /*Set font size of text*/
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;/*Set font style*/
+  line-height: 1.5; /*Spacing between each line*/
+}
+
+.educationContent > p{
+  font-size: 20px; /*Set font size of text*/
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;/*Set font style of text*/
+  max-width: 518px; /*Maximum width of container, can decrease but not increase in size*/
+  height: fit-content; /*Height of container to fit content*/
+  line-height: 2.0; /*Space between each line*/
+  word-spacing: 2px; /*Space between each word*/
+}
+
+.schoolLogo > img{
+  max-width: 230px; /*Width of image cannot increase but can decrease in size*/
+  height: 215px; /*Height of image*/
+  margin-top: 30px; /*Set space on top of image*/
+  background-color: #ffffff; /*Background color of image if image has no background*/
+}
+
 /*On screens that are 800px or less, set website layout to the following*/
 @media screen and (max-width: 800px){
 /*=========================================================================================================================================*/
@@ -760,5 +835,52 @@ input{
   border-radius:10%; /*Rounded border*/
 }
 
+/*=========================================================================================================================================*/
+/*CSS FOR EDUCATION PAGE STARTS HERE*/
+/*=========================================================================================================================================*/
+.educationheader{
+  padding-top: 100px; /*Add space from the top of the header container*/
+  margin-bottom: 90px; /*Space below the header container*/
+}
+
+/*Style sheet for education title*/
+.educationTitle{
+  font-size: 32px; /*Reset the font size*/
+  text-align: center; /*Align text in the center*/
+  width: 159px; /*Set width of the container*/
+  height: fit-content; /*Height of container to fit content*/
+  margin: auto; /*Set container in the center of viewport*/
+}
+
+/*Style sheet for each school*/
+.educationElements{
+  max-width: 318px; /*Maximum width of the container, cannot increase but can decrease in width*/
+  max-height: fit-content; /*Height of container to fit content*/
+  margin-top: -40px; /*Space above container */
+}
+
+/*Style sheet for school logo*/
+.schoolLogo > img{
+  max-width: 141px; /*Maximum width of container*/
+  max-height: 120px; /*maximum height of container*/
+}
+
+/*Style sheet for items inside the element container*/
+.educationContent{
+  text-align: center; /*Align text in the center of the container*/
+  padding: 0px; /*NO space between border of container and text*/
+}
+
+/*Style sheet for the header of the element container*/
+.educationContent > h2{
+  font-size: 12px; /*Reset font size of the text*/
+}
+
+/*Style sheet for the pargraph text of the element container*/
+.educationContent > p{
+  font-size: 10px; /*Reset font size of the content*/
+  max-width: 260px; /*Reset max width of the container, can decrease in width but cannot increase*/
+  height: fit-content; /*Height of container to fit content*/
+}
 
 }
