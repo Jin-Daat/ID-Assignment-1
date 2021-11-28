@@ -70,22 +70,40 @@
       </div>
     </div>
     <div>
+      <script>
+        //This function alerts the user after submitting the form and resets input 
+        function SubmitForm() {
+          let emails = document.forms["form"]["email"].value;
+          let names = document.forms["form"]["name"].value;
+          let numbers = document.forms["form"]["contactNo"].value;
+          if (emails == "" || names == "" || numbers == "") {
+           alert("Please fill up all '*' input fields.");
+            return false;
+          }
+          else{
+            alert("Thank you for sbumitting the form! I will reach out to you soon! :)");
+            var frm = document.getElementsByName('form')[0];
+            frm.submit();
+          }
+        }
+        
+        </script>
       <!-- Form in the "Contact Me" Section of the website -->
-      <form class="form">
-        <label for="email">Email Address:
+      <form name="form" action= "mailto:S10222867@outlook.edu.sg" method="post" enctype="text/plain">
+        <label for="email">*Email Address:
         <input type="email" id ="email" name="email" placeholder="JohnTan@hotmail.com" required>
         </label>
-        <label for="name">Full Name:
+        <label for="name">*Full Name:
         <input type="text" id="name" name="name" placeholder="John Tan" required>
         </label>
-        <label for="contactNo">Contact No.:
+        <label for="contactNo">*Contact No.:
         <input type="tel" id="contactNo" name="contactNo" placeholder="+65 12345678" required>
         </label>
         <label for="message">Message:
-        <input type="text" id="message" name="message" placeholder="Start typing here">
+        <textarea id="message" name="message" placeholder="Start typing here"></textarea>
         </label>
+        <input class="button" type="submit" value="Submit" onclick="SubmitForm()">
       </form>
-      <button class="button">Submit</button>
     </div>
   </div>
   </section>
