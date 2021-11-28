@@ -109,6 +109,7 @@ footer{
   color: #f6f6f2; /*Set color of text*/
   position: relative; /*Set position relative to viewport*/
   top: 0px; /*Put 200px of distance between relative position*/
+  margin-bottom: 0px;
   border: 2px solid; /*Set border of the footer*/
   border-color: #388087; /*Set color of the border*/
   background-color: #388087; /*Set background color of footer*/
@@ -875,6 +876,8 @@ footer{
   top: 210px;
 }
 
+
+
 /*Style sheet for "Contact Me" header*/
 /*All Content are adjusted to fit mobile views*/
 .contactHeader{
@@ -902,6 +905,7 @@ footer{
   margin: auto; /*Set content in the center*/
   font-size: 10px; /*Decrease font size*/
   font-weight: bold;
+  border:2px solid;
 }
 
 
