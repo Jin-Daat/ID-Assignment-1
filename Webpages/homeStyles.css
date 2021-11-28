@@ -97,6 +97,11 @@ nav{
   cursor: pointer; /*Cursor to be pointer when on dropButton*/
 }
 
+/*Style sheet for active pages*/
+.active{
+  background-color: #badfe7;
+}
+
 /*=========================================================================================================================================*/
 /*Footer to appear on every page*/
 /*=========================================================================================================================================*/
@@ -673,6 +678,13 @@ form{
 /*=========================================================================================================================================*/
 /*ALL CSS FOR My Work PAGE STARTS HERE*/
 /*=========================================================================================================================================*/
+/*Style sheet for the background*/
+.MyWorkBody{
+  background-image: linear-gradient(rgba(223, 217, 217, 0.5), rgba(204, 201, 201, 0.5)),url("Images/myworkBackgound.jpg");
+  background-repeat: repeat;
+  opacity: 1;
+}
+
 /*Style sheets for the header section of the webpage*/
 .workheader{
   padding-top: 284px; /*Amount of space at the top of the container*/
