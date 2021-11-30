@@ -678,7 +678,7 @@ form{
   border: 2px solid; /*Set the border thickness and the type of border*/
   display: flex; /*Make diplay flexible*/
   flex-direction: column; /*Set alignment of flex boxes in columns*/
-  max-width: 475px; /*Set maximum width of the container*/
+  width: 475px; /*Set maximum width of the container*/
   margin: 14px; /*Set space outside the container*/
   padding: 10px; /*Set space inside the container*/
   border-radius: 10px; /*Round the container*/
@@ -1256,7 +1256,7 @@ input{
 }
 
 .skillsContainer{
-  max-width: 318px; /*Reset max width*/
+  max-width: 239px; /*Reset max width*/
 }
 
 .skillsContainer > h2{
