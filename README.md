@@ -18,9 +18,18 @@ After having an idea of the types of infomation that a potential audience requir
 * Personal projects/works
 * My contact information
 
-I can now start designing the layout of my website which can be done through the use of Adobe XD which will assist me in building my wireframe. This wireframe will provide a roguh image of what my website will eventually look like. It is also a good point of reference when I am designing my website. 
-
-
+I can now start designing the layout of my website which can be done through the use of Adobe XD which will assist me in building my wireframe. This wireframe will provide a roguh image of what my website will eventually look like. It is also a good point of reference when I am designing my website. These are the wireframe for both the web and mobile view of my website:
 
 [ID_S10222867E_TanJinDaat_Assg1_website (Highfidelity) - Mobile.pdf](https://github.com/Jin-Daat/ID-Assignment-1/files/7625237/ID_S10222867E_TanJinDaat_Assg1_website.Highfidelity.-.Mobile.pdf)
 [ID_S10222867E_TanJinDaat_Assg1_website (Highfidelity) - Web.pdf](https://github.com/Jin-Daat/ID-Assignment-1/files/7625238/ID_S10222867E_TanJinDaat_Assg1_website.Highfidelity.-.Web.pdf)
+
+## Features
+In this section, I will be going over  the different parts of my website and breifly describing how each feature will help fufil the user's needs.
+
+### Exisiting Features
+* Navigation Bar - Allow users to easily identify and move to the different sections of the website. Promotes an organized and formal website
+* Education and Work Experience - Allow users to find out more about my background information and my work experiences
+* Showcase Portfolio projects - Allow users to view past projects that I compelted.
+* Contact Me Form - Allow users to take note of my contact information as well as input their contact information for a two way communication.
+* Links to other social platforms - Links to other social profiles are repsented as their respective app icons and allow users to be redirected to them through a click on the icon.
+* Skills and achievements - Allows users to take note of past accomplishments, relavent hardcore and softcore skills.
