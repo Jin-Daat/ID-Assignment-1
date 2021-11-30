@@ -84,12 +84,9 @@
       <script>
         //This function alerts the user after submitting the form and resets input 
         function SubmitForm() {
-          alert("Thank you for sbumitting the form! I will reach out to you soon! :)");
+          alert("Thank you for submitting the form! I will reach out to you soon! :)");
           }        
-        function ValidateForm(){
-          if (email == '' || name == '' || contactNo == '')
-          alert("ERROR: '*' field not filled up or invalid input");
-        }
+        
         </script>
       <!-- Form in the "Contact Me" Section of the website -->
       <form name="form" action= "mailto:S10222867@outlook.edu.sg" onsubmit="SubmitForm()" method="post" enctype="text/plain">
@@ -105,7 +102,7 @@
         <label for="message">Message:
         <textarea id="message" name="message" placeholder="Start typing here"></textarea>
         </label>
-        <input class="button" type="submit" value="Submit" onclick="ValidateForm()">
+        <input class="button" type="submit" value="Submit" >
       </form>
     </div>
   </div>
