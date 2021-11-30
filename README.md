@@ -53,26 +53,26 @@ In this section, I will be mentioning all of the languages and other tools that 
 In this section, i will be testing the user stories that have not been automated and provide neccessary details for the testing process.
 
 1. Contact Form:
-    i. Select "Contact Me" page or head to the "Contact Me" section at the bottom of the home page.
-    ii. Try to submit an empty form and ensure that a user prompt appears regarding the neccessary input fields.
-    iii. Try to submit a form with an invalid email address and ensure that a relavent message appears.
-    iv. Try to submit the form will all valid inputs and ensure the a success message appears.
+    <br/>i. Select "Contact Me" page or head to the "Contact Me" section at the bottom of the home page.
+    <br/>ii. Try to submit an empty form and ensure that a user prompt appears regarding the neccessary input fields.
+    <br/>iii. Try to submit a form with an invalid email address and ensure that a relavent message appears.
+    <br/>iv. Try to submit the form will all valid inputs and ensure the a success message appears.
 
 2. Socials Icon
-    i. On any page, go to the footer of the page and locate "Follow Me" on the bottom right corner of the footer. Or head to the Home page or contact page to locate the app icons Instagram, Facebook and LinkedIn
-    ii. Ensure that there are three different app icons that being: Instagram, Facebook and LinkedIn in that particular order.
-    iii. Hover over the icons and make sure that there is a grey border surrounding the respective app icons.
-    iv. Click on the app icons and make sure that they redirect you to the relavent social platform.
+    <br/>i. On any page, go to the footer of the page and locate "Follow Me" on the bottom right corner of the footer. Or head to the Home page or contact page to locate the app icons Instagram, Facebook and LinkedIn
+    <br/>ii. Ensure that there are three different app icons that being: Instagram, Facebook and LinkedIn in that particular order.
+    <br/>iii. Hover over the icons and make sure that there is a grey border surrounding the respective app icons.
+    <br/>iv. Click on the app icons and make sure that they redirect you to the relavent social platform.
 
 3. My Work Images
-    i. Head to "My work" section of the website using the navigation bar.
-    ii. Ensure that all images load. When hovering over these images, ensure that image border changes from white to grey.
-    iii. Click on the image and ensure that they redirect you to another webpage.
+    <br/>i. Head to "My work" section of the website using the navigation bar.
+    <br/>ii. Ensure that all images load. When hovering over these images, ensure that image border changes from white to grey.
+    <br/>iii. Click on the image and ensure that they redirect you to another webpage.
 
 4. Responsive Design
-    i. Resize the web browser to any size
-    ii. Ensure that contents do not overlap and are still readable.
-    iii. Ensure that all other functions mentioned from the above (Test1-Test3) are working.
+    <br/>i. Resize the web browser to any size
+    <br/>ii. Ensure that contents do not overlap and are still readable.
+    <br/>iii. Ensure that all other functions mentioned from the above (Test1-Test3) are working.
 
 In the web version of my website, most of the contents will be stored in flex boxes which will resize accordingly depending on the screen size (viewport). If viewport is wide, contents will be arranges in rows, else, contents will be arranged in columns. In the mobile version, all contents will be aligned in rows to promost ease of reading as well as ensure that all contents can fit into the viewport.
 
@@ -100,7 +100,7 @@ The photos used in this website were obtained from:
 * [Home page home section background](https://i.pinimg.com/originals/2c/4b/d8/2c4bd83620ea9b7fca769f5f2df69dfe.jpg)
 * [Home page body background](https://images.unsplash.com/photo-1551554781-c46200ea959d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8&w=1000&q=80)
 * [About pages background](https://www.google.com/search?sa=G&hl=en&tbs=simg:CAQS8gEJDgi_1KAbkg7Ua5gELELCMpwgaOgo4CAQSFMcdvD23FLcD4yj0DYMS2yP2BPcrGho_1uWpsGbCxda9i3W-bpuNO1omk-xqKhSikKiAFMAQMCxCOrv4IGgoKCAgBEgSg1dHVDAsQne3BCRqGAQodCgpob3Jpem9udGFs2qWI9gMLCgkvYS8ybXF2emMKGwoIdmVydGljYWzapYj2AwsKCS9hLzRoaDNwMAoXCgRoYXJk2qWI9gMLCgkvYS9iNXk1ZzIKGQoHZHJhd2luZ9qliPYDCgoIL20vMDJjc2YKFAoDYXJ02qWI9gMJCgcvbS8wamp3DA&sxsrf=AOaemvIf42r_LyfI3-SX1NyOhqPGQv75FA:1638281184531&q=Stationery&tbm=isch&ved=2ahUKEwjn6K6AocD0AhX9FbcAHWFSDxQQwg4oAHoECAEQMg&biw=1920&bih=947&dpr=1#imgrc=HZ4-0I9rn70ymM)
-* [My Work page background](https://stock.adobe.com/es/images/seamless-pattern-with-school-stationery-drawn-with-black-contour-lines-on-white-background-backdrop-with-items-for-education-monochrome-vector-illustration-in-linear-style-for-textile-print/221978909)
+* [My Work page background](https://stock.adobe.com/es/images/seamless-pattern-with-school-stationery-drawn-with-black-contour-lines-on-white-background-backdrop-with-items-for-education-monochrome-vector-illustration-in-linear-style-for-textile-print/221978909) 
 
 ### Acknowledgments
 * I received inspiration for my codes from [w3Schools](https://www.w3schools.com/)
