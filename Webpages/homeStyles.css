@@ -138,6 +138,10 @@ footer{
   text-decoration: none; /*Do not iinclude any decorations between images*/
 }
 
+/*Style sheet when hovering over socialsa images*/
+img:hover{
+  background-color: lightgrey;
+}
 /*=========================================================================================================================================*/
 /*ALL CSS STYLE FOR HOME PAGE STARTS HERE*/
 /*=========================================================================================================================================*/
@@ -152,7 +156,7 @@ footer{
 .homeheader{
   text-align: center; /*Align text in the center*/
   font-family: sans-serif; /*Set font family*/
-  position: realtive; /*Position is relative to the viewport*/
+  position: relative; /*Position is relative to the viewport*/
   /*Background image for the header section*/
   background-image: url("Images/homeHeaderBackground.jpg");
   background-repeat: no-repeat; /*Do not repeat backgroun image*/
@@ -284,6 +288,14 @@ label{
 /*Style sheet for input section of the form*/
 input{
   width: 50%; /*Set width of input*/
+  border: 1px solid; /*Set border of input*/
+  border-radius: 4px; /*Set border radius to rounded*/
+}
+
+/*Style sheet for input section of the form*/
+textarea{
+  min-width: 50%; /*Set width of input*/
+  max-width: 50%; /*Set width of input*/
   border: 1px solid; /*Set border of input*/
   border-radius: 4px; /*Set border radius to rounded*/
 }
@@ -501,6 +513,7 @@ form{
   background-color: white; /*Set background color of the container*/
 }
 
+/*Style sheet for education elements*/
 .educationElements{
   border:none; /*No border for the container*/
   border-radius: 10px; /*Round the border of container*/
@@ -514,6 +527,7 @@ form{
   background-color: #2b6777 ; /*Set background color of the container*/
 }
 
+/*Style sheet for contents inside the element*/
 .educationContent{
   display: flex; /*Make display flexible*/
   flex-direction: column; /*Arrange flex items in a column*/
@@ -521,6 +535,7 @@ form{
   color: #f6f6f2; /*Color of text in the container*/
 }
 
+/*Style sheet for All headers inside content*/
 .educationContent > h2{
   max-width: 262px; /*maximum width of the container, can decrease in size*/
   height: fit-content; /*Height of container to fit content*/
@@ -529,6 +544,7 @@ form{
   line-height: 1.5; /*Spacing between each line*/
 }
 
+/*Stle sheet for All text inside content*/
 .educationContent > p{
   font-size: 20px; /*Set font size of text*/
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;/*Set font style of text*/
@@ -538,11 +554,18 @@ form{
   word-spacing: 2px; /*Space between each word*/
 }
 
+/*Style sheet for image school logo*/
 .schoolLogo > img{
   max-width: 230px; /*Width of image cannot increase but can decrease in size*/
   height: 215px; /*Height of image*/
   margin-top: 30px; /*Set space on top of image*/
   background-color: #ffffff; /*Background color of image if image has no background*/
+}
+
+/*Style sheet for a elements when hovering over*/
+.educationElements a:hover{
+  margin-top: 12px;
+  height: fit-content;
 }
 
 /*=========================================================================================================================================*/
@@ -1128,7 +1151,7 @@ input{
 }
 
 .workElements{
-  font-size: 12; /*Reset font size*/
+  font-size: 12px; /*Reset font size*/
   max-width: 240px; /*Reset max width*/
   max-height: 320px; /*Reset max height of container*/
 }

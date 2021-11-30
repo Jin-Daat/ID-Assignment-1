@@ -1,2 +1,2 @@
-# ID-Assignment-1
-In this assignment I will be designing my own portfolio website.
+# My Personal Portfolio
+In this project, I willbe designing and building my very own protfolio website. This website will be hard coded from scratch using HTML, CSS as well as some JavaScript.
