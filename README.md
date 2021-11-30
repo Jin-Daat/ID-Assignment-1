@@ -37,13 +37,71 @@ In this section, I will be going over  the different parts of my website and bre
 In addition to these exisiting features, another feature that can be added are accomplishments outside of academics. I believe this feature will be useful to my stakeholders as it would prove that I have a good work life balance and is able to manage myself despite being heavy loaded with work. Mentioning about my friends and family would also give them an impression of my social skills and how much I value my relationship with other which I believe is an important skill in a work environment.
 
 ### Features Left To Implement
-* Description of non academic achievements
-* Descsription of relationships with friends and family members
+* Description of non academic achievements.
+* Descsription of relationships with friends and family members.
 
 ## Technologies Used
 In this section, I will be mentioning all of the languages and other tools that I have utilized in order to construct this project.
 
-* HTML - HyperText Markup language was used in this project to format and insert contents into the website. Helps to add neccessary information which the stakeholders may require. Click [here](https://html.spec.whatwg.org/multipage/sssssssssssss) to find out more on HTML.
-* CSS - Cascading Style Sheets was used to design and align elements inside their relavent containers and to implement attractive features that will improve use experience. It also promotes ease of readability. Click [here](https://www.w3.org/Style/CSS/Overview.en.html) to find out more about CSS.
-* Javascript - This language is used to make webpage interactive so as to improve user experience. Click [here](https://www.javascript.com/) to find out more about Javscript.
-* Canva - Canva is a color wheel and color theory generator which helps generate logically correct colors that are complementary, analogous, triadic, monochromatic as well as Tetradic. Click [here](https://www.canva.com/colors/color-wheel/)to find out more on Canva color wheel.
+* HTML - HyperText Markup language was used to describe the structure of the website and consists of a series of elements. It tells the browser how to display the content. Click [here](https://html.spec.whatwg.org/multipage/) to find out more on HTML.
+* CSS - Cascading Style Sheets was used to describe how HTML elements are to be displayed on screen, paper or in other media. IT saves a lot of work and can control the layout of multiple pages at once. Click [here](https://www.w3.org/Style/CSS/Overview.en.html) to find out more about CSS.
+* Javascript - Javascript is the programming language for the web and can update and change both HTML and CSS. It can also manipulate and validate data. This language is used to make webpage interactive so as to improve user experience. Click [here](https://www.javascript.com/) to find out more about Javscript.
+* Canva - Canva is a color wheel and color theory generator which helps generate logically correct colors that are complementary, analogous, triadic, monochromatic as well as Tetradic. This too was used to find out which colors to implement into my website Click [here](https://www.canva.com/colors/color-wheel/)to find out more on Canva color wheel.
+* w3Schools - W3schools is an onlin learning platform that teaches and provides exemplary codes for HTML, CSS, Javascript and many more. This site came in handy when I had difficulty implementing a particular feature to my website.
+
+## Testing
+In this section, i will be testing the user stories that have not been automated and provide neccessary details for the testing process.
+
+1. Contact Form:
+    i. Select "Contact Me" page or head to the "Contact Me" section at the bottom of the home page.
+    ii. Try to submit an empty form and ensure that a user prompt appears regarding the neccessary input fields.
+    iii. Try to submit a form with an invalid email address and ensure that a relavent message appears.
+    iv. Try to submit the form will all valid inputs and ensure the a success message appears.
+
+2. Socials Icon
+    i. On any page, go to the footer of the page and locate "Follow Me" on the bottom right corner of the footer. Or head to the Home page or contact page to locate the app icons Instagram, Facebook and LinkedIn
+    ii. Ensure that there are three different app icons that being: Instagram, Facebook and LinkedIn in that particular order.
+    iii. Hover over the icons and make sure that there is a grey border surrounding the respective app icons.
+    iv. Click on the app icons and make sure that they redirect you to the relavent social platform.
+
+3. My Work Images
+    i. Head to "My work" section of the website using the navigation bar.
+    ii. Ensure that all images load. When hovering over these images, ensure that image border changes from white to grey.
+    iii. Click on the image and ensure that they redirect you to another webpage.
+
+4. Responsive Design
+    i. Resize the web browser to any size
+    ii. Ensure that contents do not overlap and are still readable.
+    iii. Ensure that all other functions mentioned from the above (Test1-Test3) are working.
+
+In the web version of my website, most of the contents will be stored in flex boxes which will resize accordingly depending on the screen size (viewport). If viewport is wide, contents will be arranges in rows, else, contents will be arranged in columns. In the mobile version, all contents will be aligned in rows to promost ease of reading as well as ensure that all contents can fit into the viewport.
+
+Throught the process of implementing this website, there are also some bugs which have yet to be addressed. For example, input fields are not cleared after submitting the form and user's input fields are still inside the input boxes.
+
+
+## Credits
+
+### Content
+* The text from 'Technologies Used - HTML' is taken from [w3Schools](https://www.w3schools.com/html/html_intro.asp).
+* The text from 'Technologies Used- CSS' is taken from [w3Schools](https://www.w3schools.com/css/css_intro.asp).
+* The text from 'Technologies Used - Javascript' is taken from [w3Schools](https://www.w3schools.com/whatis/whatis_js.asp).
+
+### Media
+The photos used in this website were obtained from:
+* [Instagram Icon](https://brandpalettes.com/wp-content/uploads/2018/10/Instagram.png?ezimgfmt=ng:webp/ngcb1/rs:device/rscb1-1)
+* [Facebook Icon](https://brandpalettes.com/wp-content/uploads/2018/05/facebook_color_codes-300x300.png?ezimgfmt=rs:300x300/rscb1/ng:webp/ngcb1)
+* [LinkedIn Icon](https://cdn-icons-png.flaticon.com/512/174/174857.png)
+* [Innova Primary School Logo](https://innovapri.moe.edu.sg/school-song-crest/)
+* [Evergreen Secondary School Logo](https://evergreensec.moe.edu.sg/)
+* [Ngee Ann Polytechnic Logo](https://www.np.edu.sg/Pages/default.aspx)
+* [Swee Heng Bakry Logo](https://payalebarsquare.sg/directory/swee-heng-bakery-1989-classic/)
+* [Yamato Logo](https://www.yamatoamerica.com/about-us/the-yamato-cat/)
+* [TraceTogether Logo](https://play.google.com/store/apps/details?id=sg.gov.tech.bluetrace&hl=en_US&gl=US)
+* [Home page home section background](https://i.pinimg.com/originals/2c/4b/d8/2c4bd83620ea9b7fca769f5f2df69dfe.jpg)
+* [Home page body background](https://images.unsplash.com/photo-1551554781-c46200ea959d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8&w=1000&q=80)
+* [About pages background](https://www.google.com/search?sa=G&hl=en&tbs=simg:CAQS8gEJDgi_1KAbkg7Ua5gELELCMpwgaOgo4CAQSFMcdvD23FLcD4yj0DYMS2yP2BPcrGho_1uWpsGbCxda9i3W-bpuNO1omk-xqKhSikKiAFMAQMCxCOrv4IGgoKCAgBEgSg1dHVDAsQne3BCRqGAQodCgpob3Jpem9udGFs2qWI9gMLCgkvYS8ybXF2emMKGwoIdmVydGljYWzapYj2AwsKCS9hLzRoaDNwMAoXCgRoYXJk2qWI9gMLCgkvYS9iNXk1ZzIKGQoHZHJhd2luZ9qliPYDCgoIL20vMDJjc2YKFAoDYXJ02qWI9gMJCgcvbS8wamp3DA&sxsrf=AOaemvIf42r_LyfI3-SX1NyOhqPGQv75FA:1638281184531&q=Stationery&tbm=isch&ved=2ahUKEwjn6K6AocD0AhX9FbcAHWFSDxQQwg4oAHoECAEQMg&biw=1920&bih=947&dpr=1#imgrc=HZ4-0I9rn70ymM)
+* [My Work page background](https://stock.adobe.com/es/images/seamless-pattern-with-school-stationery-drawn-with-black-contour-lines-on-white-background-backdrop-with-items-for-education-monochrome-vector-illustration-in-linear-style-for-textile-print/221978909)
+
+### Acknowledgments
+* I received inspiration for my codes from [w3Schools](https://www.w3schools.com/)
+* I received inspiration for my color scheme from [here](https://99designs.com.sg/blog/tips/website-color-schemes/)
