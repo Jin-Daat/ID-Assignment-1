@@ -139,7 +139,7 @@ footer{
 }
 
 /*Style sheet when hovering over socialsa images*/
-img:hover{
+.socialsa img:hover{
   background-color: lightgrey;
 }
 /*=========================================================================================================================================*/
@@ -212,6 +212,10 @@ img:hover{
   position:relative; /*Relaive to viewport*/
   top: 5px; /*Space at the top and outside of the container*/
   text-decoration: none; /*No text decoration*/
+}
+
+.socials img:hover{
+  background-color: lightgrey; /*Change color when hovering*/
 }
 
 /*Style sheet for my profile photo*/
