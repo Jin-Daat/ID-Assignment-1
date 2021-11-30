@@ -1,3 +1,16 @@
+/*Page transition when moving from one webpage to another*/
+body {
+  animation: fadeIn 0.5s linear;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 /*=========================================================================================================================================*/
 /*Nav bar to appear on every page*/
 /*=========================================================================================================================================*/
@@ -559,7 +572,7 @@ form{
 
 /*Style sheet for a elements when hovering over*/
 .educationElements a:hover{
-  margin-top: 12px;
+  padding-right: 12px;
   height: fit-content;
 }
 
@@ -792,6 +805,11 @@ form{
   height: 439px; /*Height of image*/
   margin-top: 30px; /*Set space on top of image*/
   background-color: #ffffff; /*Background color of image if image has no background*/
+  padding: 3px;
+}
+
+.workimage > img:hover{
+  background-color: grey; /*Background color of image if image has no background*/
 }
 
 /*On screens that are 800px or less, set website layout to the following*/

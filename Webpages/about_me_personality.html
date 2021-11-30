@@ -44,6 +44,16 @@
     </div>
   </header>
 
+  <script>
+    window.addEventListener("scroll", () =>{
+      var currentCroll = window.pageYOffset;
+      if (currentCroll <= 300){
+        opacity = 0 + currentCroll/300;
+      }else{ opacity = 1; }
+      document.querySelector(".hobbies").style.opacity = opacity;
+    })  
+  </script>
+
   <!-- Hobbies section-->
   <section class="hobbies">
     <h2 class="hobbyHeader">Hobbies</h2>

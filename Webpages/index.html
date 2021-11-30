@@ -45,9 +45,20 @@
     </div>
   </header>
 
+  <script>
+    window.addEventListener("scroll", () =>{
+      var currentCroll = window.pageYOffset;
+      if (currentCroll <= 300){
+        opacity = 0 + currentCroll/300;
+      }else{ opacity = 1; }
+      document.querySelector(".contactSection").style.opacity = opacity;
+    })  
+  </script>
+
   <!-- "Contact me" section of website -->
-  <section class= "contactSection">
-  <h2 class="contactHeader">Contact Me</h2>  
+  <section  class= "contactSection">
+    
+  <h2 class="contactHeader" id="contactHeader" ondrag="myMove()">Contact Me</h2>  
   <div class="contactMe">
     <div class="contactContent">
       <!-- Container number 1-->
@@ -73,20 +84,10 @@
       <script>
         //This function alerts the user after submitting the form and resets input 
         function SubmitForm() {
-          let emails = document.forms["form"]["email"].value;
-          let names = document.forms["form"]["name"].value;
-          let numbers = document.forms["form"]["contactNo"].value;
-          if (emails == "" || names == "" || numbers == "") {
-           alert("Please fill up all '*' input fields.");
-            return false;
-          }
-          else{
-            alert("Thank you for sbumitting the form! I will reach out to you soon! :)");
-            var frm = document.getElementsByName('form')[0];
+          alert("Thank you for sbumitting the form! I will reach out to you soon! :)");
+          var frm = document.getElementsByName('form')[0];
             frm.submit();
-          }
-        }
-        
+          }        
         </script>
       <!-- Form in the "Contact Me" Section of the website -->
       <form name="form" action= "mailto:S10222867@outlook.edu.sg" onsubmit="SubmitForm()" method="post" enctype="text/plain">

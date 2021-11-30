@@ -105,6 +105,16 @@
       </div>
   </header>
 
+  <script>
+    window.addEventListener("scroll", () =>{
+      var currentCroll = window.pageYOffset;
+      if (currentCroll <= 1000){
+        opacity = 0.5 + currentCroll/1000;
+      }else{ opacity = 1; }
+      document.querySelector(".skillsAwards").style.opacity = opacity;
+    })  
+  </script>
+
   <!-- This is the skills and awards sectin of the webpage-->
   <section class="skillsAwards">
       <h2 class="sectionTitle">Skills & Awards</h2>
