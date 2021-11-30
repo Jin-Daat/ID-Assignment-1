@@ -115,8 +115,6 @@ footer{
   position: relative; /*Set position relative to viewport*/
   top: 0px; /*Put 200px of distance between relative position*/
   margin-bottom: 0px;
-  border: 2px solid; /*Set border of the footer*/
-  border-color: #388087; /*Set color of the border*/
   background-color: #388087; /*Set background color of footer*/
   width: 100%; /*Maximise width*/
   height: 60px; /*Set height of footer*/
@@ -359,8 +357,6 @@ form{
   font-family: sans-serif; /*Set font style*/
   margin-bottom: 80px; /*Create space between title and content*/
   margin-top: 0px; /*No space betwen top of container and title*/
-  border: 2px solid; /*Place border around title*/
-  border-color: #f2f2f2 ; /*Implement border color*/
   background-color: #f2f2f2 ; /*Color of background*/
   width: 275px; /*Width of container*/
   height: fit-content; /*Height of container to fit content*/
@@ -420,12 +416,10 @@ form{
   text-align: center; /*Align title to the center*/
   font-size: 54px; /*Set font size to 54 pixels*/
   font-family: sans-serif; /*Set font family of title*/
-  border: 2px solid; /*Set border of title*/
   width: 314px; /*Set width of container*/
   height: fit-content; /*Height of container to fit content*/
   margin:auto; /*Set container to center of screen*/
   background-color:#f2f2f2; /*Implement background color*/
-  border-color: #f2f2f2; /*Border color*/
 }
 
 /*Style sheet for hobby content container*/
@@ -445,10 +439,8 @@ form{
   margin: 38px; /*Set distance between each child container*/
   width: 492px; /*Width of container*/
   height: 480px; /*Height of container*/
-  border: 2px solid; /*Set border of hobby elements*/
   border-radius:10%; /*Rounded border*/
   background-color: #f2f2f2; /*Implememnt background color*/
-  border-color: #f2f2f2; /*Implement border color*/
 }
 
 /*Style sheet for title*/
@@ -468,10 +460,9 @@ form{
   width: 440px; /*Set width of the content container*/
   height: 360px; /*Set heigh of content container*/
   margin: auto; /*Align container in the center of the child container*/
-  border: 2px solid; /*Set border of hobby text and image content*/
   border-radius:10%; /*Rounded border*/
   background-color: #52ab98; /*Background color*/
-  border-color: #52ab98; /*Border color*/
+  padding: 5px; /*Add some space between border and content*/
 }
 
 /*Style sheet for title content text*/
@@ -881,13 +872,11 @@ footer{
 /*All Content are adjusted to fit mobile views*/
 .headerContent{
   top: 160px;
-  border: 2px solid;
   margin:auto;
   width: auto;
   padding: 30px;
   padding-bottom: 30px;
   background-color: #6fb3b8;
-  border-color: #6fb3b8;
 }
 
 /*Style sheet for my socials (images)*/
