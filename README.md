@@ -22,3 +22,5 @@ I can now start designing the layout of my website which can be done through the
 
 
 
+[ID_S10222867E_TanJinDaat_Assg1_website (Highfidelity) - Mobile.pdf](https://github.com/Jin-Daat/ID-Assignment-1/files/7625237/ID_S10222867E_TanJinDaat_Assg1_website.Highfidelity.-.Mobile.pdf)
+[ID_S10222867E_TanJinDaat_Assg1_website (Highfidelity) - Web.pdf](https://github.com/Jin-Daat/ID-Assignment-1/files/7625238/ID_S10222867E_TanJinDaat_Assg1_website.Highfidelity.-.Web.pdf)
