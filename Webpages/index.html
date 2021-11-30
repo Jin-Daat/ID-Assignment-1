@@ -47,9 +47,9 @@
 
   <script>
     window.addEventListener("scroll", () =>{
-      var currentCroll = window.pageYOffset;
-      if (currentCroll <= 300){
-        opacity = 0 + currentCroll/300;
+      var currentScroll = window.pageYOffset;
+      if (currentScroll <= 300){
+        opacity = 0 + currentScroll/300;
       }else{ opacity = 1; }
       document.querySelector(".contactSection").style.opacity = opacity;
     })  

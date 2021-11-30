@@ -34,17 +34,17 @@
 
   <script>
     window.addEventListener("scroll", () =>{
-      var currentCroll = window.pageYOffset;
-      if (currentCroll <= 300){
-        opacity = 0.5 + currentCroll/300;
+      var currentScroll = window.pageYOffset;
+      if (currentScroll <= 300){
+        opacity = 0.5 + currentScroll/300;
       }else{ opacity = 1; }
       document.getElementById("element2").style.opacity = opacity;
     })  
 
     window.addEventListener("scroll", () =>{
-      var currentCroll = window.pageYOffset;
-      if (currentCroll <= 1300){
-        opacity = 0.35 + currentCroll/1300;
+      var currentScroll = window.pageYOffset;
+      if (currentScroll <= 1300){
+        opacity = 0.35 + currentScroll/1300;
       }else{ opacity = 1; }
       document.getElementById("element3").style.opacity = opacity;
     })  
