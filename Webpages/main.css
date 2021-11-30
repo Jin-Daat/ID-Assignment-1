@@ -698,12 +698,80 @@ form{
 
 /*Style sheet for the list items inside the flex box*/
 .skillsContainer > ul{
+  display: flex;
+  flex-direction: column;
   font-size: 20px; /*Set font size of the text*/
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /*Set font style of the text*/
   max-width: 502px; /*Set max width of the list items*/
   height: fit-content; /*Set height of the container to fit content*/
   line-height: 1.5; /*Set space between each line*/
   word-spacing: 2px; /*Set spacing between each word*/
+}
+
+/*Style sheet for all skill bars*/
+.skillBarMS{
+  max-width: 60%; /*Set max width*/
+  color: black; /*Set color of text*/
+  border: none; /*Set no border*/
+  background-color: lightgreen; /*Set background color of container*/
+  border-radius: 10px; /*Round borders*/
+  height: fit-content; /*Height to fit content*/
+  text-align: center; /*Align text in the center*/
+}
+
+/*Style sheet for all skill bars*/
+.skillBarPy{
+  max-width: 55%; /*Set max width*/
+  color: black; /*Set color of text*/
+  border: none; /*Set no border*/
+  background-color: lightgreen; /*Set background color of container*/
+  border-radius: 10px; /*Round borders*/
+  height: fit-content; /*Height to fit content*/
+  text-align: center; /*Align text in the center*/
+}
+
+/*Style sheet for all skill bars*/
+.skillBarWeb{
+  max-width: 45%; /*Set max width*/
+  color: black; /*Set color of text*/
+  border: none; /*Set no border*/
+  background-color: lightgreen; /*Set background color of container*/
+  border-radius: 10px; /*Round borders*/
+  height: fit-content; /*Height to fit content*/
+  text-align: center; /*Align text in the center*/
+}
+
+/*Style sheet for all skill bars*/
+.skillBarC{
+  max-width: 50%; /*Set max width*/
+  color: black; /*Set color of text*/
+  border: none; /*Set no border*/
+  background-color: lightgreen; /*Set background color of container*/
+  border-radius: 10px; /*Round borders*/
+  height: fit-content; /*Height to fit content*/
+  text-align: center; /*Align text in the center*/
+}
+
+/*Style sheet for all skill bars*/
+.skillBarEng{
+  max-width: 65%; /*Set max width*/
+  color: black; /*Set color of text*/
+  border: none; /*Set no border*/
+  background-color: lightgreen; /*Set background color of container*/
+  border-radius: 10px; /*Round borders*/
+  height: fit-content; /*Height to fit content*/
+  text-align: center; /*Align text in the center*/
+}
+
+/*Style sheet for all skill bars*/
+.skillBarChi{
+  max-width: 60%; /*Set max width*/
+  color: black; /*Set color of text*/
+  border: none; /*Set no border*/
+  background-color: lightgreen; /*Set background color of container*/
+  border-radius: 10px; /*Round borders*/
+  height: fit-content; /*Height to fit content*/
+  text-align: center; /*Align text in the center*/
 }
 
 /*=========================================================================================================================================*/
