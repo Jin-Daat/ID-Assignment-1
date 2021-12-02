@@ -8,7 +8,7 @@ In order to gain a better idea of what should be included in my website, I will 
 
 * Recruiters. As a recruiter, I am interested in hiring someone who is experienced and qualified in the sector of Information Technology so that he/she is able to assist my company with our relevant projects. I also want to be able to understand what type of person I am potentially hiring so that he/she can promote and contribute to a healthy and friendly work environment. Furthermore, understand his/her personality would allow me to gauge how they will behave in our company's work environment and decide if they are suitable employees of my company/organization.
 
-*  Scholarships patrons. As a scholarship patron, I want to provide and fund a diligent and hardworking person who is eager to do his best and perform well in their studies and will eventually contribute back to the society. I will need to know the personality as well as past achievements of the person in order to determine if they are potential candidates for my scholarship. Their past records would also give me an idea of what kind of person they are and would aid me in my judgement.
+*  Scholarships patrons. As a scholarship patron, I want to provide and fund a diligent and hardworking person who is eager to do his best and perform well in their studies and will eventually contribute back to the society. I will need to know their personality as well as past achievements in order to determine if they are potential candidates for my scholarship. Their past records would also give me an idea of what kind of person they are and would aid me in my judgement.
 
 After having an idea of the types of information that a potential audience requires, I now have a better idea of what I need to include in my website. Hence, I will be including the following in my website:
 
@@ -19,8 +19,9 @@ After having an idea of the types of information that a potential audience requi
 * My contact information
 
 I can now start designing the layout of my website which will include all information that the stakeholders might query for. I will be using Adobe XD assist me in building my wireframe. This wireframe will provide a rough image of what my website will eventually look like. It is also a good point of reference when I am designing my website. These are the wireframe for both the web and mobile view of my website:
-[ID_S10222867E_TanJinDaat_Assg1_website (Highfidelity) - Web.pdf](https://github.com/Jin-Daat/ID-Assignment-1/files/7642108/ID_S10222867E_TanJinDaat_Assg1_website.Highfidelity.-.Web.pdf)
-<br>[ID_S10222867E_TanJinDaat_Assg1_website (Highfidelity)-Mobile.pdf](https://github.com/Jin-Daat/ID-Assignment-1/files/7642109/ID_S10222867E_TanJinDaat_Assg1_website.Highfidelity.-Mobile.pdf)
+
+
+The color scheme that I have chosen is one that was referenced from a website which can be found in the "Credits" section. The fonts for this website will mainly be Sans Serif as well as Segoe UI as these are fonts that are easily readable by the eye. As for the template of the website, I have planned and implemented an original design by referencing the different wix templates which exists on [wix.com]("https://www.wix.com/website/templates") which gave me inspiration.
 
 ## Features
 In this section, I will be going over  the different parts of my website and briefly describing how each feature will help fulfil the user's needs.
@@ -109,6 +110,7 @@ The photos used in this website were obtained from:
 ### Acknowledgments
 * I received inspiration for my codes from [w3Schools](https://www.w3schools.com/)
 * I received inspiration for my colour scheme from [here](https://99designs.com.sg/blog/tips/website-color-schemes/)
+* I received inspiration for my website template from [wix.com]("https://www.wix.com/website/templates")
 
 
 
