@@ -20,7 +20,7 @@ After having an idea of the types of information that a potential audience requi
 
 I can now start designing the layout of my website which will include all information that the stakeholders might query for. I will be using Adobe XD assist me in building my wireframe. This wireframe will provide a rough image of what my website will eventually look like. It is also a good point of reference when I am designing my website. These are the wireframe for both the web and mobile view of my website:
 [ID_S10222867E_TanJinDaat_Assg1_website - Web.pdf](https://github.com/Jin-Daat/ID-Assignment-1/files/7642506/ID_S10222867E_TanJinDaat_Assg1_website.-.Web.pdf)
-<br>[ID_S10222867E_TanJinDaat_Assg1_website ) - Mobile.pdf](https://github.com/Jin-Daat/ID-Assignment-1/files/7642507/ID_S10222867E_TanJinDaat_Assg1_website.-.Mobile.pdf)
+<br>[ID_S10222867E_TanJinDaat_Assg1_website  - Mobile.pdf](https://github.com/Jin-Daat/ID-Assignment-1/files/7642508/ID_S10222867E_TanJinDaat_Assg1_website.-.Mobile.pdf)
 
 
 The color scheme that I have chosen is one that was referenced from a website which can be found in the "Credits" section. The fonts for this website will mainly be Sans Serif as well as Segoe UI as these are fonts that are easily readable by the eye. As for the template of the website, I have planned and implemented an original design by referencing the different wix templates which exists on [wix.com]("https://www.wix.com/website/templates") which gave me inspiration.
