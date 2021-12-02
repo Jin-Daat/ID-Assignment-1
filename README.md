@@ -33,6 +33,9 @@ In this section, I will be going over  the different parts of my website and bri
 * Contact Me Form - Allow users to take note of my contact information as well as input their contact information for a two way communication.
 * Links to other social platforms - Links to other social profiles are represented as their respective app icons and allow users to be redirected to them through a click on the icon.
 * Skills and achievements - Allow users to take note of past accomplishments, relevant hardcore and softcore skills.
+* Page Fade - Fade animation when moving from one page to another.
+* Icon hover - Animation formed upon hovering upon icons to create interactivity.
+* Scoll Fade - Content Fade in when scrolling from top to bototm.
 
 In addition to these existing features, another feature that can be added are accomplishments outside of academics. I believe this feature will be useful to my stakeholders as it would prove that I have a good work life balance and is able to manage myself despite being heavy loaded with work. Mentioning about my friends and family would also give them an impression of my social skills and how much I value my relationship with other which I believe is an important skill in a work environment.
 
