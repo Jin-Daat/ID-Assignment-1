@@ -710,6 +710,7 @@ form{
 
 /*Style sheet for all skill bars*/
 .skillBarMS{
+  font-size: 16px; /*Set font size*/
   max-width: 60%; /*Set max width*/
   color: black; /*Set color of text*/
   border: none; /*Set no border*/
@@ -721,6 +722,7 @@ form{
 
 /*Style sheet for all skill bars*/
 .skillBarPy{
+  font-size: 16px; /*Set font size*/
   max-width: 55%; /*Set max width*/
   color: black; /*Set color of text*/
   border: none; /*Set no border*/
@@ -732,6 +734,7 @@ form{
 
 /*Style sheet for all skill bars*/
 .skillBarWeb{
+  font-size: 16px; /*Set font size*/
   max-width: 45%; /*Set max width*/
   color: black; /*Set color of text*/
   border: none; /*Set no border*/
@@ -743,6 +746,7 @@ form{
 
 /*Style sheet for all skill bars*/
 .skillBarC{
+  font-size: 16px; /*Set font size*/
   max-width: 50%; /*Set max width*/
   color: black; /*Set color of text*/
   border: none; /*Set no border*/
@@ -754,6 +758,7 @@ form{
 
 /*Style sheet for all skill bars*/
 .skillBarEng{
+  font-size: 16px; /*Set font size*/
   max-width: 65%; /*Set max width*/
   color: black; /*Set color of text*/
   border: none; /*Set no border*/
@@ -765,6 +770,7 @@ form{
 
 /*Style sheet for all skill bars*/
 .skillBarChi{
+  font-size: 16px; /*Set font size*/
   max-width: 60%; /*Set max width*/
   color: black; /*Set color of text*/
   border: none; /*Set no border*/
