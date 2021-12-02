@@ -51,7 +51,7 @@ In this section, I will be mentioning all of the languages and other tools that 
 * [CSS](https://www.w3.org/Style/CSS/Overview.en.html) - Cascading Style Sheets was used to describe how HTML elements are to be displayed on screen, paper or in other media. IT saves a lot of work and can control the layout of multiple pages at once. 
 * [JavaScript](https://www.javascript.com/) - JavaScript is the programming language for the web and can update and change both HTML and CSS. It can also manipulate and validate data. This language is used to make webpage interactive so as to improve user experience. 
 * [Canva](https://www.canva.com/colors/color-wheel/) - Canva is a colour wheel and colour theory generator which helps generate logically correct colours that are complementary, analogous, triadic, monochromatic as well as Tetradic. This tool was used to find out which colours to implement into my website.
-* [w3Schools](https://www.w3schools.com/) - W3schools is an online learning platform that teaches and provides exemplary codes for HTML, CSS, JavaScript and many more. This site came in handy when I had difficulty implementing a particular feature to my website.
+* [w3Schools](https://www.w3schools.com/) - W3schools is an online learning platform that teaches and provides exemplary codes for HTML, CSS, JavaScript and many more. This site came in handy when I have difficulty implementing a particular feature to my website.
 * [JQuery](https://jquery.com/) - This is used to simplify DOM manipulation
 
 ## Testing
