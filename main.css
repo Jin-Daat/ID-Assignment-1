@@ -1274,6 +1274,30 @@ input{
   font-size: 10px; /*Reset font size of text*/
 }
 
+.skillBarMS{
+  font-size: 8px; /*Reset font size*/
+}
+
+.skillBarPy{
+  font-size: 8px; /*Reset font size*/
+}
+
+.skillBarWeb{
+  font-size: 8px; /*Reset font size*/
+}
+
+.skillBarC{
+  font-size: 8px; /*Reset font size*/
+}
+
+.skillBarEng{
+  font-size: 8px; /*Reset font size*/
+}
+
+.skillBarChi{
+  font-size: 8px; /*Reset font size*/
+}
+
 /*=========================================================================================================================================*/
 /*ALL MEDIA QUERY My Work PAGE STARTS HERE*/
 /*=========================================================================================================================================*/
