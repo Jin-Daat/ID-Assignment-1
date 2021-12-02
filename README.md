@@ -35,7 +35,7 @@ In this section, I will be going over  the different parts of my website and bri
 * Skills and achievements - Allow users to take note of past accomplishments, relevant hardcore and softcore skills.
 * Page Fade - Fade animation when moving from one page to another.
 * Icon hover - Animation formed upon hovering upon icons to create interactivity.
-* Scoll Fade - Content Fade in when scrolling from top to bototm.
+* Scroll Fade - Content Fade in when scrolling from top to bottom.
 
 In addition to these existing features, another feature that can be added are accomplishments outside of academics. I believe this feature will be useful to my stakeholders as it would prove that I have a good work life balance and is able to manage myself despite being heavy loaded with work. Mentioning about my friends and family would also give them an impression of my social skills and how much I value my relationship with other which I believe is an important skill in a work environment. Furthermore, I believe that more animations such as a extension of the skills bar on the skills and awards section of the "Work & Skills" page can be added to create a more responsive feel and experience between users and the site.
 
@@ -52,7 +52,7 @@ In this section, I will be mentioning all of the languages and other tools that 
 * [JavaScript](https://www.javascript.com/) - JavaScript is the programming language for the web and can update and change both HTML and CSS. It can also manipulate and validate data. This language is used to make webpage interactive so as to improve user experience. 
 * [Canva](https://www.canva.com/colors/color-wheel/) - Canva is a colour wheel and colour theory generator which helps generate logically correct colours that are complementary, analogous, triadic, monochromatic as well as Tetradic. This tool was used to find out which colours to implement into my website.
 * [w3Schools](https://www.w3schools.com/) - W3schools is an online learning platform that teaches and provides exemplary codes for HTML, CSS, JavaScript and many more. This site came in handy when I had difficulty implementing a particular feature to my website.
-*[JQuery](https://jquery.com/) - This is used to simplify DOM manipulation
+* [JQuery](https://jquery.com/) - This is used to simplify DOM manipulation
 
 ## Testing
 In this section, I will be testing the user stories that have not been automated and provide necessary details for the testing process.
@@ -79,7 +79,7 @@ In this section, I will be testing the user stories that have not been automated
     <br/>ii. Ensure that contents do not overlap and are still readable.
     <br/>iii. Ensure that all other functions mentioned from the above (Test1-Test3) are working.
 
-In the web version of my website, most of the contents will be stored in flex boxes which will resize accordingly depending on the screen size (viewport). If viewport is wide, contents will be arranges in rows, else, contents will be arranged in columns. In the mobile version, all contents will be aligned in rows to promote ease of reading as well as ensure that all contents can fit into the viewport.
+In the web version of my website, most of the contents will be stored in flex boxes which will resize accordingly depending on the screen size (viewport). If viewport is wide, contents will be arranged in rows, else, contents will be arranged in columns. In the mobile version, all contents will be aligned in rows to promote ease of reading as well as ensure that all contents can fit into the viewport.
 
 Throughout the process of implementing this website, there are also some bugs which have yet to be addressed. For example, input fields are not cleared after submitting the form and user's input fields are still inside the input boxes.
 
@@ -109,5 +109,6 @@ The photos used in this website were obtained from:
 ### Acknowledgments
 * I received inspiration for my codes from [w3Schools](https://www.w3schools.com/)
 * I received inspiration for my colour scheme from [here](https://99designs.com.sg/blog/tips/website-color-schemes/)
+
 
 
