@@ -112,7 +112,7 @@ The photos used in this website were obtained from:
 ### Acknowledgments
 * I received inspiration for my codes from [w3Schools](https://www.w3schools.com/)
 * I received inspiration for my colour scheme from [here](https://99designs.com.sg/blog/tips/website-color-schemes/)
-* I received inspiration for my website template from [wix.com]("https://www.wix.com/website/templates")
+* I received inspiration for my website template from [wix](https://www.wix.com/website/templates)
 
 
 
