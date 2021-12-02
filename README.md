@@ -38,11 +38,12 @@ In this section, I will be going over  the different parts of my website and bri
 * Icon hover - Animation formed upon hovering upon icons to create interactivity.
 * Scoll Fade - Content Fade in when scrolling from top to bototm.
 
-In addition to these existing features, another feature that can be added are accomplishments outside of academics. I believe this feature will be useful to my stakeholders as it would prove that I have a good work life balance and is able to manage myself despite being heavy loaded with work. Mentioning about my friends and family would also give them an impression of my social skills and how much I value my relationship with other which I believe is an important skill in a work environment.
+In addition to these existing features, another feature that can be added are accomplishments outside of academics. I believe this feature will be useful to my stakeholders as it would prove that I have a good work life balance and is able to manage myself despite being heavy loaded with work. Mentioning about my friends and family would also give them an impression of my social skills and how much I value my relationship with other which I believe is an important skill in a work environment. Furthermore, I believe that more animations such as a extension of the skills bar on the skills and awards section of the "Work & Skills" page can be added to create a more responsive feel and experience between users and the site.
 
 ### Features Left To Implement
 * Description of non academic achievements.
 * Description of relationships with friends and family members.
+* Extension animation on skill bar.
 
 ## Technologies Used
 In this section, I will be mentioning all of the languages and other tools that I have utilized in order to construct this project.
