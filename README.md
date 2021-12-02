@@ -20,9 +20,6 @@ After having an idea of the types of information that a potential audience requi
 
 I can now start designing the layout of my website which will include all information that the stakeholders might query for. I will be using Adobe XD assist me in building my wireframe. This wireframe will provide a rough image of what my website will eventually look like. It is also a good point of reference when I am designing my website. These are the wireframe for both the web and mobile view of my website:
 
-[ID_S10222867E_TanJinDaat_Assg1_website (Highfidelity) - Mobile.pdf](https://github.com/Jin-Daat/ID-Assignment-1/files/7625237/ID_S10222867E_TanJinDaat_Assg1_website.Highfidelity.-.Mobile.pdf)
-[ID_S10222867E_TanJinDaat_Assg1_website (Highfidelity) - Web.pdf](https://github.com/Jin-Daat/ID-Assignment-1/files/7625238/ID_S10222867E_TanJinDaat_Assg1_website.Highfidelity.-.Web.pdf)
-
 ## Features
 In this section, I will be going over  the different parts of my website and briefly describing how each feature will help fulfil the user's needs.
 
