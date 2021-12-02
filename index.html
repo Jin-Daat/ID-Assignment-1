@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width">
         <link rel="stylesheet" href="main.css"> <!-- Css Style for webpage-->
         <link rel="stylesheet" href="Normalise.css"> <!-- CSS for resetting browser settings-->
+        <script src="myscript.js"></script> <!-- Javscript for page-->
         <link rel="preconnect" href="https://fonts.googleapis.com"> <!-- Import Google font-->
         <link rel="preconnect" href="https://fonts.googleapis.com"> <!-- Import Google font-->
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <!-- Import Google font-->
@@ -13,7 +14,6 @@
     </head>
 
 <body class="homebody">
-  
     <!-- Navigation bar of the website -->
   <nav class="navbar">
     <a class= "Home" href="index.html">Home</a>
@@ -45,19 +45,8 @@
     </div>
   </header>
 
-  <script>
-    window.addEventListener("scroll", () =>{
-      var currentScroll = window.pageYOffset;
-      if (currentScroll <= 300){
-        opacity = 0 + currentScroll/300;
-      }else{ opacity = 1; }
-      document.querySelector(".contactSection").style.opacity = opacity;
-    })  
-  </script>
-
   <!-- "Contact me" section of website -->
   <section  class= "contactSection">
-    
   <h2 class="contactHeader" id="contactHeader" ondrag="myMove()">Contact Me</h2>  
   <div class="contactMe">
     <div class="contactContent">
@@ -81,13 +70,7 @@
       </div>
     </div>
     <div>
-      <script>
-        //This function alerts the user after submitting the form and resets input 
-        function SubmitForm() {
-          alert("Thank you for submitting the form! I will reach out to you soon! :)");
-          }        
-        
-        </script>
+      
       <!-- Form in the "Contact Me" Section of the website -->
       <form name="form" action= "mailto:S10222867@outlook.edu.sg" onsubmit="SubmitForm()" method="post" enctype="text/plain">
         <label for="email">*Email Address:
@@ -122,6 +105,5 @@
         <img src="Images/INicon.png" alt="My LinkedIn Page"></a>
     </div>
   </footer>
-
 </body>
 </html> 

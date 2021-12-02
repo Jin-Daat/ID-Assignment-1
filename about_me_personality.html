@@ -5,6 +5,7 @@
       <meta name="viewport" content="width=device-width">
       <link rel="stylesheet" href="main.css"> <!-- Css Style for webpage-->
       <link rel="stylesheet" href="Normalise.css"> <!-- CSS for resetting browser settings-->
+      <script src="myscript.js"></script> <!-- Javscript for page-->
       <link rel="preconnect" href="https://fonts.googleapis.com"> <!-- Import Google font-->
       <link rel="preconnect" href="https://fonts.googleapis.com"> <!-- Import Google font-->
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <!-- Import Google font-->
@@ -43,16 +44,6 @@
         <img src="Images/aboutImage.jpg" class= "contentElements" alt ="Picture of Me">
     </div>
   </header>
-
-  <script>
-    window.addEventListener("scroll", () =>{
-      var currentScroll = window.pageYOffset;
-      if (currentScroll <= 300){
-        opacity = 0 + currentScroll/300;
-      }else{ opacity = 1; }
-      document.querySelector(".hobbies").style.opacity = opacity;
-    })  
-  </script>
 
   <!-- Hobbies section-->
   <section class="hobbies">
@@ -122,5 +113,4 @@
     </div>
   </footer>
 </body>
-
 </html>
