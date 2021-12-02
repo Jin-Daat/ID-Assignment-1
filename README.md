@@ -31,6 +31,7 @@ In this section, I will be going over  the different parts of my website and bri
 * Education and Work Experience - Allow users to find out more about my background information and my work experiences
 * Showcase Portfolio projects - Allow users to view past projects that I completed.
 * Contact Me Form - Allow users to take note of my contact information as well as input their contact information for a two way communication.
+* Form Validation - Validate form to check for user input.
 * Links to other social platforms - Links to other social profiles are represented as their respective app icons and allow users to be redirected to them through a click on the icon.
 * Skills and achievements - Allow users to take note of past accomplishments, relevant hardcore and softcore skills.
 * Page Fade - Fade animation when moving from one page to another.
