@@ -24,7 +24,7 @@ I can now start designing the layout of my website which will include all inform
 
 
 
-The color scheme that I have chosen is one that was referenced from a website which can be found in the "Credits" section. The fonts for this website will mainly be Sans Serif as well as Segoe UI as these are fonts that are easily readable by the eye. As for the template of the website, I have planned and implemented an original design by referencing the different wix templates which exists on [wix.com]("https://www.wix.com/website/templates") which gave me inspiration.
+The color scheme that I have chosen is one that was referenced from a website which can be found in the "Credits" section. The fonts for this website will mainly be Sans Serif as well as Segoe UI as these are fonts that are easily readable by the eye. As for the template of the website, I have planned and implemented an original design by referencing the different wix templates which exists on [wix.com](https://www.wix.com/website/templates) which gave me inspiration.
 
 ## Features
 In this section, I will be going over  the different parts of my website and briefly describing how each feature will help fulfil the user's needs.
@@ -57,6 +57,8 @@ In this section, I will be mentioning all of the languages and other tools that 
 * [Canva](https://www.canva.com/colors/color-wheel/) - Canva is a colour wheel and colour theory generator which helps generate logically correct colours that are complementary, analogous, triadic, monochromatic as well as Tetradic. This tool was used to find out which colours to implement into my website.
 * [w3Schools](https://www.w3schools.com/) - W3schools is an online learning platform that teaches and provides exemplary codes for HTML, CSS, JavaScript and many more. This site came in handy when I have difficulty implementing a particular feature to my website.
 * [JQuery](https://jquery.com/) - This is used to simplify DOM manipulation
+* [Visual Studio](https://code.visualstudio.com/) - Visual Studio was used to edit my HTML, CSS and Javascript code.
+* [Adobe XD](https://www.adobe.com/sg/products/xd/learn/design/layout/using-adobe-xd-for-web-design.html) - This tool was used to design and implement my wireframe.
 
 ## Testing
 In this section, I will be testing the user stories that have not been automated and provide necessary details for the testing process.
