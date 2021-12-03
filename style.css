@@ -681,6 +681,7 @@ form{
   width: 475px; /*Set maximum width of the container*/
   margin: 14px; /*Set space outside the container*/
   padding: 10px; /*Set space inside the container*/
+  padding-bottom: 40px; /*Set space between content and container at the bottom*/
   border-radius: 10px; /*Round the container*/
   background-color: #2b6777; /*Set background color of the container*/
   color: #f6f6f2; /*Set the text color of the text inside the container*/
@@ -706,6 +707,8 @@ form{
   height: fit-content; /*Set height of the container to fit content*/
   line-height: 1.5; /*Set space between each line*/
   word-spacing: 2px; /*Set spacing between each word*/
+  margin-bottom: -10px; /*Set space below the bar*/
+  margin-left: 18px; /*Set space left of the bar*/
 }
 
 /*Style sheet for all skill bars*/
@@ -718,6 +721,9 @@ form{
   border-radius: 10px; /*Round borders*/
   height: fit-content; /*Height to fit content*/
   text-align: center; /*Align text in the center*/
+  margin-top: 10px; /*Set space above the bar*/
+  margin-left: 38px; /*Set space left of the bar*/
+  margin-bottom: -10px; /*Set space below bar*/
 }
 
 /*Style sheet for all skill bars*/
@@ -730,6 +736,9 @@ form{
   border-radius: 10px; /*Round borders*/
   height: fit-content; /*Height to fit content*/
   text-align: center; /*Align text in the center*/
+  margin-top: 10px; /*Set space above the bar*/
+  margin-left: 38px; /*Set space left of the bar*/
+  margin-bottom: -10px; /*Set space below bar*/
 }
 
 /*Style sheet for all skill bars*/
@@ -742,6 +751,9 @@ form{
   border-radius: 10px; /*Round borders*/
   height: fit-content; /*Height to fit content*/
   text-align: center; /*Align text in the center*/
+  margin-top: 10px; /*Set space above the bar*/
+  margin-left: 38px; /*Set space left of the bar*/
+  margin-bottom: -10px; /*Set space below bar*/
 }
 
 /*Style sheet for all skill bars*/
@@ -754,6 +766,9 @@ form{
   border-radius: 10px; /*Round borders*/
   height: fit-content; /*Height to fit content*/
   text-align: center; /*Align text in the center*/
+  margin-top: 10px; /*Set space above the bar*/
+  margin-left: 38px; /*Set space left of the bar*/
+  margin-bottom: -10px; /*Set space below bar*/
 }
 
 /*Style sheet for all skill bars*/
@@ -766,6 +781,9 @@ form{
   border-radius: 10px; /*Round borders*/
   height: fit-content; /*Height to fit content*/
   text-align: center; /*Align text in the center*/
+  margin-top: 10px; /*Set space above the bar*/
+  margin-left: 38px; /*Set space left of the bar*/
+  margin-bottom: -10px; /*Set space below bar*/
 }
 
 /*Style sheet for all skill bars*/
@@ -778,6 +796,8 @@ form{
   border-radius: 10px; /*Round borders*/
   height: fit-content; /*Height to fit content*/
   text-align: center; /*Align text in the center*/
+  margin-top: 10px; /*Set space above the bar*/
+  margin-left: 38px; /*Set space left of the bar*/
 }
 
 /*=========================================================================================================================================*/
@@ -1272,6 +1292,7 @@ input{
 
 .skillsContainer > ul{
   font-size: 10px; /*Reset font size of text*/
+  margin-left: 8px;
 }
 
 .skillBarMS{
